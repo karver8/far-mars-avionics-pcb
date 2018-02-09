@@ -10307,6 +10307,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="477.52" y1="129.54" x2="477.52" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="477.52" y1="134.62" x2="474.98" y2="134.62" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C6" gate="G$1" pin="2"/>
+<wire x1="601.98" y1="121.92" x2="601.98" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="601.98" y1="121.92" x2="601.98" y2="119.38" width="0.1524" layer="91"/>
+<junction x="601.98" y="121.92"/>
+<pinref part="GND8" gate="1" pin="GND"/>
+<wire x1="601.98" y1="121.92" x2="568.96" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="TPS62162-Q1" gate="A" pin="FB"/>
+<wire x1="558.8" y1="124.46" x2="568.96" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="568.96" y1="121.92" x2="568.96" y2="124.46" width="0.1524" layer="91"/>
+<label x="558.8" y="124.46" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="VDDCORE" class="0">
 <segment>
@@ -10688,20 +10700,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="558.8" y="139.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="FB" class="0">
-<segment>
-<pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="601.98" y1="121.92" x2="601.98" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="601.98" y1="121.92" x2="601.98" y2="119.38" width="0.1524" layer="91"/>
-<junction x="601.98" y="121.92"/>
-<pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="601.98" y1="121.92" x2="568.96" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="TPS62162-Q1" gate="A" pin="FB"/>
-<wire x1="558.8" y1="124.46" x2="568.96" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="568.96" y1="121.92" x2="568.96" y2="124.46" width="0.1524" layer="91"/>
-<label x="558.8" y="124.46" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="S2" gate="1" pin="P"/>
@@ -10736,13 +10734,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,195.58,205.74,IMU,VDD,3.3V,,,"/>
-<approved hash="104,1,195.58,187.96,IMU,PIN10,GND,,,"/>
-<approved hash="104,1,195.58,185.42,IMU,PIN15,GND,,,"/>
-<approved hash="104,1,195.58,182.88,IMU,PIN16,GND,,,"/>
-<approved hash="104,1,195.58,180.34,IMU,GNDIO,GND,,,"/>
-<approved hash="202,1,154.94,200.66,IMU,XIN32,,,,"/>
-<approved hash="104,1,195.58,203.2,IMU,VDDIO,3.3V,,,"/>
 <approved hash="104,1,467.36,88.9,U2,VCC,3.3V,,,"/>
 <approved hash="113,1,391.397,167.866,VDUC,,,,,"/>
 <approved hash="113,1,391.397,185.646,GND,,,,,"/>

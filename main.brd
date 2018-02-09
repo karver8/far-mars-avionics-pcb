@@ -3202,7 +3202,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="U$3" library="special-drill" package="DRILL_0.1250" value="" x="46.99" y="3.81" locked="yes"/>
 <element name="U$4" library="special-drill" package="DRILL_0.1250" value="" x="46.99" y="46.99" locked="yes"/>
 <element name="R41" library="resistor" package="R0603" value="64.9" x="33.02" y="29.2862" rot="R90"/>
-<element name="LED0" library="adafruit" package="CHIPLED_0603" value="2V @ 20mA" x="33.0454" y="32.6263" rot="R180"/>
+<element name="LED0" library="adafruit" package="CHIPLED_0603" value="2V @ 20mA" x="33.0454" y="32.6263" smashed="yes" rot="R180">
+<attribute name="NAME" x="32.6263" y="38.7477" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="31.1404" y="33.8963" size="1.27" layer="27" rot="R270"/>
+</element>
 <element name="SD" library="molex-microSD" package="MOLEX_503182-1852" value="503182-1852" x="9.779" y="25.4" locked="yes" rot="R90">
 <attribute name="DESCRIPTION" value="MICRO SD NORMAL ULTRALOWPRO8CKTE" x="9.779" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="WM12834CT-ND" x="9.779" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3214,7 +3217,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="C23" library="resistor" package="C0603" value="100n" x="7.6835" y="16.129"/>
 <element name="R31" library="resistor" package="R0603" value="10k" x="15.0622" y="36.2331" rot="R270"/>
 <element name="R28" library="resistor" package="R0603" value="64.9" x="35.2679" y="29.3116" rot="R90"/>
-<element name="LED1" library="adafruit" package="CHIPLED_0603" value="2V @ 20mA" x="35.2933" y="32.6136" rot="R180"/>
+<element name="LED1" library="adafruit" package="CHIPLED_0603" value="2V @ 20mA" x="35.2933" y="32.6136" smashed="yes" rot="R180">
+<attribute name="NAME" x="34.7853" y="38.862" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="33.3883" y="33.8836" size="1.27" layer="27" rot="R270"/>
+</element>
 <element name="TPS62162-Q1" library="TPS62162-Q1" package="DSG0008A" value="" x="34.5186" y="14.6431" rot="R90">
 <attribute name="MANUFACTURER" value="Texas Instruments" x="25.0317" y="14.6431" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PARTNUMBER" value="TPS62162QDSGRQ1" x="25.0317" y="14.6431" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3353,7 +3359,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="23.368" y="22.5298" extent="1-16" drill="0.35"/>
 <wire x1="23.368" y1="22.5298" x2="24.65" y2="22.5298" width="0.254" layer="1"/>
 <wire x1="24.65" y1="22.5298" x2="24.65" y2="21.15" width="0.254" layer="1"/>
-<wire x1="23.9649" y1="32.4748" x2="21.1328" y2="37.8324" width="0" layer="19" extent="1-1"/>
+<wire x1="23.9649" y1="32.4748" x2="23.4959" y2="32.9438" width="0.254" layer="1"/>
+<wire x1="23.4959" y1="32.9438" x2="23.0632" y2="32.9438" width="0.254" layer="1"/>
+<via x="23.0632" y="32.9438" extent="1-16" drill="0.35"/>
+<wire x1="23.0632" y1="32.9438" x2="23.5204" y2="33.401" width="0.254" layer="16"/>
+<wire x1="23.5204" y1="33.401" x2="23.5204" y2="36.576" width="0.254" layer="16"/>
+<via x="23.5204" y="36.576" extent="1-16" drill="0.35"/>
+<wire x1="23.5204" y1="36.576" x2="23.5204" y2="38.7858" width="0.254" layer="1"/>
+<wire x1="23.5204" y1="38.7858" x2="23.495" y2="38.8112" width="0.254" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="MCU" pad="42"/>
@@ -3426,8 +3439,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="16.179" y1="30.34" x2="17.5881" y2="31.7491" width="0.508" layer="1"/>
 <wire x1="17.5881" y1="31.7491" x2="19.7612" y2="31.7491" width="0.508" layer="1"/>
 <via x="17.5881" y="31.7491" extent="1-16" drill="0.35"/>
-<wire x1="17.5881" y1="31.7491" x2="19.9258" y2="34.0868" width="0.508" layer="16"/>
-<wire x1="19.9258" y1="34.0868" x2="22.4028" y2="34.0868" width="0.508" layer="16"/>
 <via x="22.4028" y="34.0868" extent="1-16" drill="0.35"/>
 <wire x1="22.4028" y1="34.0868" x2="23.8769" y2="34.0868" width="0.508" layer="1"/>
 <wire x1="23.8769" y1="34.0868" x2="23.9649" y2="34.1748" width="0.508" layer="1"/>
@@ -3486,8 +3497,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="25.9461" y1="31.1606" x2="25.9461" y2="31.242" width="0.254" layer="1"/>
 <wire x1="27.9019" y1="27.2796" x2="24.7142" y2="24.0919" width="0.254" layer="16"/>
 <wire x1="24.7142" y1="24.0919" x2="24.7142" y2="23.1902" width="0.254" layer="16"/>
-<wire x1="19.9258" y1="34.0868" x2="21.1328" y2="36.1324" width="0" layer="19" extent="1-16"/>
-<wire x1="34.5186" y1="10.707" x2="34.08205" y2="12.68255" width="0" layer="19" extent="1-16"/>
+<wire x1="17.5881" y1="31.7491" x2="20.0651" y2="31.7491" width="0.254" layer="16"/>
+<wire x1="20.0651" y1="31.7491" x2="22.4028" y2="34.0868" width="0.254" layer="16"/>
+<wire x1="22.4028" y1="34.0868" x2="21.9837" y2="34.0868" width="0.254" layer="16"/>
+<wire x1="21.9837" y1="34.0868" x2="21.1455" y2="34.925" width="0.254" layer="16"/>
+<via x="21.1455" y="34.925" extent="1-16" drill="0.35"/>
+<wire x1="21.1455" y1="34.925" x2="21.1455" y2="36.1197" width="0.254" layer="1"/>
+<wire x1="21.1455" y1="36.1197" x2="21.1328" y2="36.1324" width="0.254" layer="1"/>
+<wire x1="34.08205" y1="12.68255" x2="34.5186" y2="10.707" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="VDDCORE">
 <contactref element="MCU" pad="43"/>

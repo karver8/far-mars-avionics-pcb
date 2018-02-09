@@ -1,7 +1,6 @@
-# far-mars-onboard-pcb
-SAMD21G18A Based Data Acquisition Board Designed in Autodesk Eagle
+# far-mars-barebones-pcb
+Minimalist version of the [far-mars-onboard-pcb](https://github.com/SDSURocketProject/far-mars-onboard-pcb)
 * Cortex M0 Based Microcontroller
-* Dynamic Power Management
 * High Sample Rate Inertial Measurment Unit
 * Analog to Digital Converters for Pressure Data
 * MicroSD for data logging

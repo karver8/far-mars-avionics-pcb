@@ -1,10 +1,12 @@
 # far-mars-barebones-pcb
-Minimalist version of the [far-mars-onboard-pcb](https://github.com/SDSURocketProject/far-mars-onboard-pcb)
+Variation of the [far-mars-onboard-pcb](https://github.com/SDSURocketProject/far-mars-dpm-pcb) without Dynamic Power Managment
 * Cortex M0 Based Microcontroller
 * Analog to Digital Converters for Pressure Data
 * MicroSD for data logging
 * Miscellaneous GPIO ports for reading rocket states and futureproofing
 * RS-485 interface for long distance wired communications
+* High Sample Rate Inertial Measurment Unit
+* Purpose Built and Highly Power Effecient
 
 ## The Board
 

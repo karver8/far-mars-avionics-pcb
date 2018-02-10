@@ -1,5 +1,5 @@
 # far-mars-barebones-pcb
-Variation of the [far-mars-onboard-pcb](https://github.com/SDSURocketProject/far-mars-dpm-pcb) without Dynamic Power Managment
+Variation of the [far-mars-dpm-pcb](https://github.com/SDSURocketProject/far-mars-dpm-pcb) without Dynamic Power Managment
 * Cortex M0 Based Microcontroller
 * Analog to Digital Converters for Pressure Data
 * MicroSD for data logging
@@ -11,6 +11,10 @@ Variation of the [far-mars-onboard-pcb](https://github.com/SDSURocketProject/far
 ## The Board
 
 * Unfinsihed
+
+## Firmware
+
+Documentation and development of the firmware for this board can be found in our [far-mars-onboard-firmware](https://github.com/SDSURocketProject/far-mars-onboard-firmware) repository.
 
 ## Bill of Materials
 

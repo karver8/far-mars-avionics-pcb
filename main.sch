@@ -9314,18 +9314,17 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="-1.0414" y1="-1.0414" x2="-1.0414" y2="1.0414" width="0.1524" layer="51"/>
 <wire x1="-0.3556" y1="0.6096" x2="-0.762" y2="0.6096" width="0.0762" layer="51" curve="-180"/>
 <wire x1="-0.762" y1="0.6096" x2="-0.3556" y2="0.6096" width="0.0762" layer="51" curve="-180"/>
-<text x="-0.9144" y="-0.889" size="1.27" layer="51" ratio="6" rot="SR0">.Designator</text>
 <wire x1="-1.0668" y1="1.143" x2="-0.4318" y2="1.143" width="0.1778" layer="21"/>
 <wire x1="0.889" y1="1.143" x2="1.0668" y2="1.143" width="0.1778" layer="21"/>
 <wire x1="0.889" y1="-1.143" x2="1.0668" y2="-1.143" width="0.1778" layer="21"/>
 <wire x1="-1.0668" y1="-1.143" x2="-0.889" y2="-1.143" width="0.1778" layer="21"/>
-<text x="-0.9906" y="1.8796" size="1.27" layer="21" ratio="6" rot="SR0">Designator299</text>
 <polygon width="0.0254" layer="31">
 <vertex x="-0.427" y="-0.732996875"/>
 <vertex x="0.427" y="-0.732996875"/>
 <vertex x="0.427" y="0.733003125"/>
 <vertex x="-0.427" y="0.733003125"/>
 </polygon>
+<text x="-1.27" y="1.27" size="1.27" layer="21">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -10027,7 +10026,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY16" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND24" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="U2" library="SN65HVD32" deviceset="SN65HVD32_D_8" device=""/>
-<part name="RS-485" library="pinhead" deviceset="PINHD-1X4" device=""/>
+<part name="COM" library="pinhead" deviceset="PINHD-1X4" device=""/>
 <part name="AIN" library="pinhead" deviceset="PINHD-1X5" device=""/>
 <part name="VDUC" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="VDD" library="pinhead" deviceset="PINHD-1X2" device=""/>
@@ -10044,7 +10043,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="R28" library="resistor" deviceset="R-US_" device="R0603" value="64.9"/>
 <part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="2V @ 20mA"/>
-<part name="TPS62162-Q1" library="TPS62162-Q1" deviceset="TPS62162QDSGRQ1" device="" value=""/>
+<part name="REG" library="TPS62162-Q1" deviceset="TPS62162QDSGRQ1" device="" value="Value"/>
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R3" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
@@ -10078,6 +10077,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND9" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="R2" library="resistor" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="GND20" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10123,7 +10123,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="SUPPLY16" gate="G$1" x="447.04" y="93.98"/>
 <instance part="GND24" gate="1" x="447.04" y="73.66"/>
 <instance part="U2" gate="A" x="467.36" y="88.9"/>
-<instance part="RS-485" gate="A" x="525.78" y="83.82"/>
+<instance part="COM" gate="A" x="525.78" y="83.82"/>
 <instance part="AIN" gate="A" x="416.56" y="93.98"/>
 <instance part="VDUC" gate="G$1" x="393.7" y="165.1"/>
 <instance part="VDD" gate="G$1" x="393.7" y="182.88"/>
@@ -10140,7 +10140,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="SUPPLY9" gate="G$1" x="86.36" y="101.6" rot="R90"/>
 <instance part="R28" gate="G$1" x="106.68" y="91.44" rot="R180"/>
 <instance part="LED1" gate="G$1" x="93.98" y="91.44" rot="R90"/>
-<instance part="TPS62162-Q1" gate="A" x="538.48" y="127" smashed="yes">
+<instance part="REG" gate="A" x="538.48" y="127" smashed="yes">
 <attribute name="NAME" x="523.5956" y="146.2786" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="533.1206" y="125.9586" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 </instance>
@@ -10177,6 +10177,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND9" gate="1" x="256.54" y="91.44"/>
 <instance part="SUPPLY12" gate="G$1" x="243.84" y="114.3"/>
 <instance part="R2" gate="G$1" x="243.84" y="106.68" rot="R270"/>
+<instance part="GND20" gate="1" x="439.42" y="137.16"/>
 </instances>
 <busses>
 </busses>
@@ -10314,7 +10315,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="SUPPLY14" gate="G$1" pin="3.3V"/>
 <wire x1="601.98" y1="139.7" x2="601.98" y2="142.24" width="0.1524" layer="91"/>
 <junction x="601.98" y="139.7"/>
-<pinref part="TPS62162-Q1" gate="A" pin="VOS"/>
+<pinref part="REG" gate="A" pin="VOS"/>
 <wire x1="558.8" y1="134.62" x2="584.2" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="584.2" y1="139.7" x2="584.2" y2="134.62" width="0.1524" layer="91"/>
 <junction x="584.2" y="139.7"/>
@@ -10494,16 +10495,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="274.32" y="132.08"/>
 </segment>
 <segment>
-<pinref part="TPS62162-Q1" gate="A" pin="PGND"/>
+<pinref part="REG" gate="A" pin="PGND"/>
 <wire x1="558.8" y1="116.84" x2="561.34" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="561.34" y1="116.84" x2="561.34" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="561.34" y1="114.3" x2="561.34" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="561.34" y1="116.84" x2="561.34" y2="119.38" width="0.1524" layer="91"/>
 <junction x="561.34" y="116.84"/>
-<pinref part="TPS62162-Q1" gate="A" pin="AGND"/>
+<pinref part="REG" gate="A" pin="AGND"/>
 <wire x1="561.34" y1="119.38" x2="558.8" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
-<pinref part="TPS62162-Q1" gate="A" pin="PAD"/>
+<pinref part="REG" gate="A" pin="PAD"/>
 <wire x1="558.8" y1="114.3" x2="561.34" y2="114.3" width="0.1524" layer="91"/>
 <junction x="561.34" y="114.3"/>
 </segment>
@@ -10525,7 +10526,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="601.98" y="121.92"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="601.98" y1="121.92" x2="568.96" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="TPS62162-Q1" gate="A" pin="FB"/>
+<pinref part="REG" gate="A" pin="FB"/>
 <wire x1="558.8" y1="124.46" x2="568.96" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="568.96" y1="121.92" x2="568.96" y2="124.46" width="0.1524" layer="91"/>
 <label x="558.8" y="124.46" size="1.778" layer="95"/>
@@ -10587,6 +10588,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="FUNC" gate="1" pin="S"/>
 <wire x1="256.54" y1="93.98" x2="256.54" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="96.52" x2="254" y2="96.52" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GPIO" gate="A" pin="8"/>
+<wire x1="454.66" y1="147.32" x2="439.42" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="439.42" y1="147.32" x2="439.42" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="GND20" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="VDDCORE" class="0">
@@ -10728,31 +10735,31 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="205.74" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="A" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="A"/>
-<pinref part="RS-485" gate="A" pin="1"/>
+<pinref part="COM" gate="A" pin="1"/>
 <wire x1="518.16" y1="88.9" x2="523.24" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$11" class="0">
+<net name="B" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="B"/>
-<pinref part="RS-485" gate="A" pin="2"/>
+<pinref part="COM" gate="A" pin="2"/>
 <wire x1="518.16" y1="86.36" x2="523.24" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="Z" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="Z"/>
-<pinref part="RS-485" gate="A" pin="3"/>
+<pinref part="COM" gate="A" pin="3"/>
 <wire x1="518.16" y1="83.82" x2="523.24" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="Y" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="Y"/>
-<pinref part="RS-485" gate="A" pin="4"/>
+<pinref part="COM" gate="A" pin="4"/>
 <wire x1="518.16" y1="81.28" x2="523.24" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -10807,9 +10814,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="373.38" y="167.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TPS62162-Q1" gate="A" pin="VIN"/>
+<pinref part="REG" gate="A" pin="VIN"/>
 <wire x1="518.16" y1="139.7" x2="513.08" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="TPS62162-Q1" gate="A" pin="EN"/>
+<pinref part="REG" gate="A" pin="EN"/>
 <wire x1="518.16" y1="134.62" x2="513.08" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="513.08" y1="134.62" x2="513.08" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="513.08" y1="134.62" x2="513.08" y2="132.08" width="0.1524" layer="91"/>
@@ -10899,11 +10906,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="GPIO8" class="0">
 <segment>
-<wire x1="454.66" y1="147.32" x2="421.64" y2="147.32" width="0.1524" layer="91"/>
-<label x="421.64" y="147.32" size="1.778" layer="95"/>
-<pinref part="GPIO" gate="A" pin="8"/>
-</segment>
-<segment>
 <pinref part="MCU" gate="G$1" pin="PA18(SER1:2+)"/>
 <label x="205.74" y="99.06" size="1.778" layer="95"/>
 <pinref part="FUNC" gate="1" pin="P"/>
@@ -10923,7 +10925,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="PG" class="0">
 <segment>
-<pinref part="TPS62162-Q1" gate="A" pin="PG"/>
+<pinref part="REG" gate="A" pin="PG"/>
 <wire x1="558.8" y1="129.54" x2="571.5" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="571.5" y1="129.54" x2="571.5" y2="127" width="0.1524" layer="91"/>
 <wire x1="571.5" y1="127" x2="589.28" y2="127" width="0.1524" layer="91"/>
@@ -10934,7 +10936,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="SW" class="0">
 <segment>
-<pinref part="TPS62162-Q1" gate="A" pin="SW"/>
+<pinref part="REG" gate="A" pin="SW"/>
 <pinref part="L1" gate="G$1" pin="1"/>
 <wire x1="558.8" y1="139.7" x2="563.88" y2="139.7" width="0.1524" layer="91"/>
 <label x="558.8" y="139.7" size="1.778" layer="95"/>

@@ -1,4 +1,8 @@
 # far-mars-barebones-pcb
+
+**CAUTION: THIS BOARD IS STILL IN DEVELOPMENT, MATERIALS AND DESIGN UNTESTED**
+
+
 Variation of the [far-mars-dpm-pcb](https://github.com/SDSURocketProject/far-mars-dpm-pcb) without Dynamic Power Managment
 * Cortex M0 Based Microcontroller
 * Analog to Digital Converters for Pressure Data
@@ -8,18 +12,16 @@ Variation of the [far-mars-dpm-pcb](https://github.com/SDSURocketProject/far-mar
 * High Sample Rate Inertial Measurment Unit
 * Purpose Built and Highly Power Effecient
 
+
 ## The Board
 
-* Unfinsihed
+![](https://github.com/SDSURocketProject/far-mars-barebones-pcb/blob/master/renders/info.png  "Render provided by OSHpark")
 
 ## Firmware
 
 Documentation and development of the firmware for this board can be found in our [far-mars-onboard-firmware](https://github.com/SDSURocketProject/far-mars-onboard-firmware) repository.
 
 ## Bill of Materials
-
-* Unfinished
-
 
 | Component/Part Name                  | Part Number           | Vendor   | Qty Per Brd |
 |--------------------------------------|-----------------------|----------|-------------|

@@ -10051,7 +10051,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C6" library="resistor" deviceset="C-US" device="C0603" value="22u"/>
 <part name="GND8" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="PWR" library="SparkFun-Switches" deviceset="SWITCH-SPDT" device="-SMD-AYZ0202"/>
 <part name="C7" library="resistor" deviceset="C-US" device="C0603" value="10u"/>
 <part name="VIN" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="GND10" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -10078,6 +10077,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="R2" library="resistor" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="GND20" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="PWR" library="SparkFun-Switches" deviceset="SWITCH-SPDT" device="-PTH-11.6X4.0MM"/>
 </parts>
 <sheets>
 <sheet>
@@ -10151,7 +10151,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="C6" gate="G$1" x="601.98" y="134.62"/>
 <instance part="GND8" gate="1" x="601.98" y="116.84"/>
 <instance part="SUPPLY14" gate="G$1" x="601.98" y="142.24"/>
-<instance part="PWR" gate="1" x="502.92" y="142.24"/>
 <instance part="C7" gate="G$1" x="513.08" y="129.54"/>
 <instance part="VIN" gate="G$1" x="477.52" y="142.24" rot="R180"/>
 <instance part="GND10" gate="1" x="482.6" y="132.08"/>
@@ -10178,6 +10177,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="SUPPLY12" gate="G$1" x="243.84" y="114.3"/>
 <instance part="R2" gate="G$1" x="243.84" y="106.68" rot="R270"/>
 <instance part="GND20" gate="1" x="439.42" y="137.16"/>
+<instance part="PWR" gate="1" x="502.92" y="142.24"/>
 </instances>
 <busses>
 </busses>
@@ -10823,8 +10823,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="513.08" y="134.62"/>
 <label x="513.08" y="139.7" size="1.778" layer="95"/>
 <pinref part="C7" gate="G$1" pin="1"/>
-<pinref part="PWR" gate="1" pin="S"/>
-<wire x1="513.08" y1="139.7" x2="508" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="PWR" gate="1" pin="O"/>
+<wire x1="513.08" y1="139.7" x2="513.08" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="513.08" y1="144.78" x2="508" y2="144.78" width="0.1524" layer="91"/>
 <junction x="513.08" y="139.7"/>
 </segment>
 </net>
@@ -10944,9 +10945,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="PWR" gate="1" pin="P"/>
 <wire x1="500.38" y1="142.24" x2="480.06" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="VIN" gate="G$1" pin="2"/>
+<pinref part="PWR" gate="1" pin="P"/>
 </segment>
 </net>
 <net name="N$7" class="0">

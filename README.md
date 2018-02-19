@@ -4,13 +4,13 @@
 
 
 Variation of the [far-mars-dpm-pcb](https://github.com/SDSURocketProject/far-mars-dpm-pcb) without Dynamic Power Managment
-* Cortex M0 Based Microcontroller
-* Analog to Digital Converters for Pressure Data
-* MicroSD for data logging
-* Miscellaneous GPIO ports for reading rocket states and futureproofing
-* RS-485 interface for long distance wired communications
-* High Sample Rate Inertial Measurment Unit
-* Purpose Built and Highly Power Effecient
+* ARM Cortex M0+ Based Microcontroller
+* 5 Analog to Digital Converters
+* MicroSD card slot logging telemetry
+* Miscellaneous digital i/o ports for reading rocket states and futureproofing
+* RS-485 transciever for long distance wired communication
+* BNO055 Inertial Measurement Unit
+* Small size and power efficient 
 
 
 ## The Board
@@ -46,3 +46,17 @@ Documentation and development of the firmware for this board can be found in our
 | 0603 3.3k Resistor LT             	| [RG16N3.3KWCT-ND](https://www.digikey.com/product-detail/en/susumu/RG1608N-332-W-T1/RG16N3.3KWCT-ND/600797)                                      	| Digi-Key 	| 5           	|
 | 0603 64.9 Resistor LT             	| [311-64.9HRCT-ND](https://www.digikey.com/product-detail/en/yageo/RC0603FR-0764R9L/311-64.9HRCT-ND/730290)                                       	| Digi-Key 	| 2           	|
 | 0603 1k Resistor                  	| [311-1.00KHRCT-ND](https://www.digikey.com/product-detail/en/yageo/RC0603FR-071KL/311-1.00KHRCT-ND/729790)                                       	| Digi-Key 	| 2           	|
+
+## Recommended Headers and Housings 
+
+| Component/Part Name           	| Link/Part Number                                                                                          	| Vendor   	| Price 	| Qty Per Brd 	| Total Single Board 	|
+|-------------------------------	|-----------------------------------------------------------------------------------------------------------	|----------	|-------	|-------------	|--------------------	|
+| 8x1 Male FL Header            	| [609-1310-ND](https://www.digikey.com/product-detail/en/amphenol-fci/76384-308LF/609-1310-ND/1001624)     	| Digi-Key 	| 0.82  	| 1           	| 0.82               	|
+| 8x1 Female FL Housing         	| [609-1268-ND](https://www.digikey.com/product-detail/en/amphenol-fci/65240-008LF/609-1268-ND/1001582)     	| Digi-Key 	| 0.44  	| 1           	| 0.44               	|
+| 4x1 Male Friction Lock Header 	| [609-1306-ND](https://www.digikey.com/product-detail/en/amphenol-fci/76384-304LF/609-1306-ND/1001620)     	| Digi-Key 	| 0.64  	| 1           	| 0.64               	|
+| 4x1 Female FL Housing         	| [609-1264-ND](https://www.digikey.com/product-detail/en/amphenol-fci/65240-004LF/609-1264-ND/1001578)     	| Digi-Key 	| 0.36  	| 1           	| 0.36               	|
+| 2x1 Male Friction Lock Header 	| [609-1304-ND](https://www.digikey.com/product-detail/en/amphenol-fci/76384-302LF/609-1304-ND/1001618)     	| Digi-Key 	| 0.5   	| 3           	| 1.5                	|
+| 2x1 Female FL Housing         	| [609-1262-ND](https://www.digikey.com/product-detail/en/amphenol-fci/65240-002LF/609-1262-ND/1001576)     	| Digi-Key 	| 0.23  	| 3           	| 0.69               	|
+| 5x1 Male Friction Lock Header 	| [609-1307-ND](https://www.digikey.com/product-detail/en/amphenol-fci/76384-305LF/609-1307-ND/1001621)     	| Digi-Key 	| 0.8   	| 1           	| 0.8                	|
+| 5x1 Female FL Housing         	| [609-1265-ND](https://www.digikey.com/product-detail/en/amphenol-fci/65240-005LF/609-1265-ND/1001579)     	| Digi-Key 	| 0.46  	| 1           	| 0.46               	|
+| Compatible Crimp Heads        	| [609-3055-1-ND](https://www.digikey.com/product-detail/en/amphenol-fci/76347-301LF/609-3055-1-ND/1642308) 	| Digi-Key 	| 0.15  	| 25          	| 3.75               	|

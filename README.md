@@ -49,14 +49,23 @@ Documentation and development of the firmware for this board can be found in our
 
 ## Recommended Headers and Housings 
 
-| Component/Part Name           	| Link/Part Number                                                                                          	| Vendor   	| Price 	| Qty Per Brd 	| Total Single Board 	|
-|-------------------------------	|-----------------------------------------------------------------------------------------------------------	|----------	|-------	|-------------	|--------------------	|
-| 8x1 Male FL Header            	| [609-1310-ND](https://www.digikey.com/product-detail/en/amphenol-fci/76384-308LF/609-1310-ND/1001624)     	| Digi-Key 	| 0.82  	| 1           	| 0.82               	|
-| 8x1 Female FL Housing         	| [609-1268-ND](https://www.digikey.com/product-detail/en/amphenol-fci/65240-008LF/609-1268-ND/1001582)     	| Digi-Key 	| 0.44  	| 1           	| 0.44               	|
-| 4x1 Male Friction Lock Header 	| [609-1306-ND](https://www.digikey.com/product-detail/en/amphenol-fci/76384-304LF/609-1306-ND/1001620)     	| Digi-Key 	| 0.64  	| 1           	| 0.64               	|
-| 4x1 Female FL Housing         	| [609-1264-ND](https://www.digikey.com/product-detail/en/amphenol-fci/65240-004LF/609-1264-ND/1001578)     	| Digi-Key 	| 0.36  	| 1           	| 0.36               	|
-| 2x1 Male Friction Lock Header 	| [609-1304-ND](https://www.digikey.com/product-detail/en/amphenol-fci/76384-302LF/609-1304-ND/1001618)     	| Digi-Key 	| 0.5   	| 3           	| 1.5                	|
-| 2x1 Female FL Housing         	| [609-1262-ND](https://www.digikey.com/product-detail/en/amphenol-fci/65240-002LF/609-1262-ND/1001576)     	| Digi-Key 	| 0.23  	| 3           	| 0.69               	|
-| 5x1 Male Friction Lock Header 	| [609-1307-ND](https://www.digikey.com/product-detail/en/amphenol-fci/76384-305LF/609-1307-ND/1001621)     	| Digi-Key 	| 0.8   	| 1           	| 0.8                	|
-| 5x1 Female FL Housing         	| [609-1265-ND](https://www.digikey.com/product-detail/en/amphenol-fci/65240-005LF/609-1265-ND/1001579)     	| Digi-Key 	| 0.46  	| 1           	| 0.46               	|
-| Compatible Crimp Heads        	| [609-3055-1-ND](https://www.digikey.com/product-detail/en/amphenol-fci/76347-301LF/609-3055-1-ND/1642308) 	| Digi-Key 	| 0.15  	| 25          	| 3.75               	|
+| Component/Part Name           	| Link/Part Number                                                                                          	| Vendor   	| Qty Per Brd 	|
+|-------------------------------	|-----------------------------------------------------------------------------------------------------------	|----------	|-------------	|
+| 8x1 Male FL Header            	| [609-1310-ND](https://www.digikey.com/product-detail/en/amphenol-fci/76384-308LF/609-1310-ND/1001624)     	| Digi-Key 	| 1           	|
+| 8x1 Female FL Housing         	| [609-1268-ND](https://www.digikey.com/product-detail/en/amphenol-fci/65240-008LF/609-1268-ND/1001582)     	| Digi-Key 	| 1           	|
+| 4x1 Male Friction Lock Header 	| [609-1306-ND](https://www.digikey.com/product-detail/en/amphenol-fci/76384-304LF/609-1306-ND/1001620)     	| Digi-Key 	| 1           	|
+| 4x1 Female FL Housing         	| [609-1264-ND](https://www.digikey.com/product-detail/en/amphenol-fci/65240-004LF/609-1264-ND/1001578)     	| Digi-Key 	| 1           	|
+| 2x1 Male Friction Lock Header 	| [609-1304-ND](https://www.digikey.com/product-detail/en/amphenol-fci/76384-302LF/609-1304-ND/1001618)     	| Digi-Key 	| 3           	|
+| 2x1 Female FL Housing         	| [609-1262-ND](https://www.digikey.com/product-detail/en/amphenol-fci/65240-002LF/609-1262-ND/1001576)     	| Digi-Key 	| 3           	|
+| 5x1 Male Friction Lock Header 	| [609-1307-ND](https://www.digikey.com/product-detail/en/amphenol-fci/76384-305LF/609-1307-ND/1001621)     	| Digi-Key 	| 1           	|
+| 5x1 Female FL Housing         	| [609-1265-ND](https://www.digikey.com/product-detail/en/amphenol-fci/65240-005LF/609-1265-ND/1001579)     	| Digi-Key 	| 1           	|
+| Compatible Crimp Heads        	| [609-3055-1-ND](https://www.digikey.com/product-detail/en/amphenol-fci/76347-301LF/609-3055-1-ND/1642308) 	| Digi-Key 	| 25          	|
+
+## Recommended Miscellaneous
+
+| Component/Part Name 	| Link/Part Number                                                                                                                                                                                                    	| Vendor   	| Qty Per Brd 	|
+|---------------------	|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|----------	|-------------	|
+| Atmel ICE Debugger  	| [ATATMEL-ICE-ND](https://www.digikey.com/product-detail/en/microchip-technology/ATATMEL-ICE/ATATMEL-ICE-ND/4753379)                                                                                                 	| Digi-Key 	| N/A         	|
+| Reflow Skillet      	| [CKSTSKFM12W-ECO](https://www.amazon.com/Oster-CKSTSKFM12W-ECO-DuraCeramic-Electric-Skillet/dp/B00ESF08JQ)                                                                                                          	| Amazon   	| N/A         	|
+| Nylon Spacers       	| [RPC4978-ND](https://www.digikey.com/products/en/hardware-fasteners-accessories/washers/571?k=&pkeyword=&pv147=565&FV=1180006%2Cffe0023b%2Cc1c011a&mnonly=0&ColumnSort=0&page=1&quantity=0&ptm=0&fid=0&pageSize=25) 	| Digi-Key 	| 8           	|
+| Soldering Stencil   	| N/A                                                                                                                                                                                                                 	| N/A      	| N/A         	|

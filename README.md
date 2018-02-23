@@ -26,7 +26,7 @@ Documentation and development of the firmware for this board can be found in our
 |-----------------------------------	|--------------------------------------------------------------------------------------------------------------------------------------------------	|----------	|-------------	|
 | SAMD21G18 Microcontroller         	| [1611-ATSAMD21G18A-AFTCT-ND](https://www.digikey.com/product-detail/en/microchip-technology/ATSAMD21G18A-AFT/1611-ATSAMD21G18A-AFTCT-ND/6832839) 	| Digi-Key 	| 1           	|
 | BNO055 IMU                        	| [828-1058-1-ND](https://www.digikey.com/product-detail/en/bosch-sensortec/BNO055/828-1058-1-ND/6136309)                                          	| Digi-Key 	| 1           	|
-| SN65HVD32DR 485 Transciever       	| [296-19627-1-ND](https://www.digikey.com/product-detail/en/texas-instruments/SN65HVD32DR/296-19627-1-ND/1016501)                                 	| Digi-Key 	| 1           	|
+| SN65HVD10 485 Transciever       	    | [296-14012-5-ND](https://www.digikey.com/product-detail/en/texas-instruments/SN65HVD10QD/296-14012-5-ND/522531)                                 	| Digi-Key 	| 1           	|
 | Molex microSD Slot                	| [WM12834CT-ND](https://www.digikey.com/product-detail/en/molex-llc/5031821852/WM12834CT-ND/5823232)                                              	| Digi-Key 	| 1           	|
 | SWD Debugger Header               	| [S9015E-05-ND](https://www.digikey.com/product-detail/en/sullins-connector-solutions/GRPB052VWVN-RC/S9015E-05-ND/1786455)                        	| Digi-Key 	| 1           	|
 | PWR Switch                        	| [EG1903-ND](https://www.digikey.com/product-detail/en/e-switch/EG1218/EG1903-ND/101726)                                                          	| Digi-Key 	| 1           	|
@@ -41,7 +41,7 @@ Documentation and development of the firmware for this board can be found in our
 | 0603 Green LED 2V/20mA            	| [160-1446-1-ND](https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KGKT/160-1446-1-ND/386834)                                        	| Digi-Key 	| 1           	|
 | 0805 Filter for AREF              	| [MH2029-300YCT-ND](https://www.digikey.com/product-detail/en/bourns-inc/MH2029-300Y/MH2029-300YCT-ND/3741761)                                    	| Digi-Key 	| 1           	|
 | 0603 100k Resistor LT             	| [A106046CT-ND](https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CRG0603F100K/A106046CT-ND/3477684)                      	| Digi-Key 	| 1           	|
-| 0603 10k Resistor                 	| [A106048CT-ND](https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CRG0603F10K/A106048CT-ND/3477687)                       	| Digi-Key 	| 6           	|
+| 0603 10k Resistor                 	| [A106048CT-ND](https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CRG0603F10K/A106048CT-ND/3477687)                       	| Digi-Key 	| 7           	|
 | 0603 1.6k Resistor LT             	| [P1.6KBECT-ND](https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3ARW162V/P1.6KBECT-ND/3073304)                      	| Digi-Key 	| 5           	|
 | 0603 3.3k Resistor LT             	| [RG16N3.3KWCT-ND](https://www.digikey.com/product-detail/en/susumu/RG1608N-332-W-T1/RG16N3.3KWCT-ND/600797)                                      	| Digi-Key 	| 5           	|
 | 0603 64.9 Resistor LT             	| [311-64.9HRCT-ND](https://www.digikey.com/product-detail/en/yageo/RC0603FR-0764R9L/311-64.9HRCT-ND/730290)                                       	| Digi-Key 	| 2           	|
@@ -53,10 +53,8 @@ Documentation and development of the firmware for this board can be found in our
 |-------------------------------	|-----------------------------------------------------------------------------------------------------------	|----------	|-------------	|
 | 8x1 Male FL Header            	| [609-1310-ND](https://www.digikey.com/product-detail/en/amphenol-fci/76384-308LF/609-1310-ND/1001624)     	| Digi-Key 	| 1           	|
 | 8x1 Female FL Housing         	| [609-1268-ND](https://www.digikey.com/product-detail/en/amphenol-fci/65240-008LF/609-1268-ND/1001582)     	| Digi-Key 	| 1           	|
-| 4x1 Male Friction Lock Header 	| [609-1306-ND](https://www.digikey.com/product-detail/en/amphenol-fci/76384-304LF/609-1306-ND/1001620)     	| Digi-Key 	| 1           	|
-| 4x1 Female FL Housing         	| [609-1264-ND](https://www.digikey.com/product-detail/en/amphenol-fci/65240-004LF/609-1264-ND/1001578)     	| Digi-Key 	| 1           	|
-| 2x1 Male Friction Lock Header 	| [609-1304-ND](https://www.digikey.com/product-detail/en/amphenol-fci/76384-302LF/609-1304-ND/1001618)     	| Digi-Key 	| 3           	|
-| 2x1 Female FL Housing         	| [609-1262-ND](https://www.digikey.com/product-detail/en/amphenol-fci/65240-002LF/609-1262-ND/1001576)     	| Digi-Key 	| 3           	|
+| 2x1 Male Friction Lock Header 	| [609-1304-ND](https://www.digikey.com/product-detail/en/amphenol-fci/76384-302LF/609-1304-ND/1001618)     	| Digi-Key 	| 4           	|
+| 2x1 Female FL Housing         	| [609-1262-ND](https://www.digikey.com/product-detail/en/amphenol-fci/65240-002LF/609-1262-ND/1001576)     	| Digi-Key 	| 4           	|
 | 5x1 Male Friction Lock Header 	| [609-1307-ND](https://www.digikey.com/product-detail/en/amphenol-fci/76384-305LF/609-1307-ND/1001621)     	| Digi-Key 	| 1           	|
 | 5x1 Female FL Housing         	| [609-1265-ND](https://www.digikey.com/product-detail/en/amphenol-fci/65240-005LF/609-1265-ND/1001579)     	| Digi-Key 	| 1           	|
 | Compatible Crimp Heads        	| [609-3055-1-ND](https://www.digikey.com/product-detail/en/amphenol-fci/76347-301LF/609-3055-1-ND/1642308) 	| Digi-Key 	| 25          	|

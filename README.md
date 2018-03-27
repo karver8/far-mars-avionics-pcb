@@ -1,9 +1,9 @@
-# far-mars-barebones-pcb
+# far-mars-avionics-pcb
 
 **CAUTION: THIS BOARD IS STILL IN DEVELOPMENT, MATERIALS AND DESIGN UNTESTED**
 
 
-Variation of the [far-mars-dpm-pcb](https://github.com/SDSURocketProject/far-mars-dpm-pcb) without Dynamic Power Managment
+#### Features
 * ARM Cortex M0+ Based Microcontroller
 * 5 Analog to Digital Converters
 * MicroSD card slot logging telemetry

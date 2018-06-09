@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.7.1">
+<eagle version="9.0.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -10843,15 +10843,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R39" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="NRESET" class="0">
-<segment>
-<pinref part="IMU" gate="G$1" pin="NRESET"/>
-<label x="58.42" y="213.36" size="1.778" layer="95"/>
-<wire x1="76.2" y1="213.36" x2="27.94" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="213.36" x2="27.94" y2="215.9" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="2"/>
-</segment>
-</net>
 <net name="N$15" class="0">
 <segment>
 <pinref part="IMU" gate="G$1" pin="CAP"/>
@@ -11007,6 +10998,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R28" gate="G$1" pin="1"/>
 <wire x1="226.06" y1="88.9" x2="226.06" y2="86.36" width="0.1524" layer="91"/>
 <label x="226.06" y="86.36" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+</net>
+<net name="IMU_NRST" class="0">
+<segment>
+<pinref part="MCU" gate="G$1" pin="PA13(I2C/SER2:1+)"/>
+<wire x1="165.1" y1="81.28" x2="182.88" y2="81.28" width="0.1524" layer="91"/>
+<label x="167.64" y="81.28" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IMU" gate="G$1" pin="NRESET"/>
+<label x="58.42" y="213.36" size="1.778" layer="95"/>
+<wire x1="76.2" y1="213.36" x2="27.94" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="213.36" x2="27.94" y2="215.9" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>

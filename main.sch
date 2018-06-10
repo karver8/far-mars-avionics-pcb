@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.0">
+<eagle version="9.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8801,101 +8801,6 @@ Source: http://www.osram.convergy.de/</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="molex-microSD">
-<packages>
-<package name="MOLEX_503182-1852">
-<rectangle x1="7.095340625" y1="-4.189959375" x2="7.47" y2="-1.775" layer="39"/>
-<rectangle x1="-3.66161875" y1="-2.68353125" x2="5.55" y2="0.725" layer="41"/>
-<rectangle x1="-3.65828125" y1="0.72664375" x2="5.55" y2="5.485" layer="43"/>
-<wire x1="-7.07" y1="8.225" x2="7.07" y2="8.225" width="0.127" layer="51"/>
-<wire x1="7.07" y1="8.225" x2="7.07" y2="-6.725" width="0.127" layer="51"/>
-<wire x1="7.07" y1="-6.725" x2="-7.07" y2="-6.725" width="0.127" layer="51"/>
-<wire x1="-7.07" y1="-6.725" x2="-7.07" y2="8.225" width="0.127" layer="51"/>
-<wire x1="-8" y1="-7.25" x2="8" y2="-7.25" width="0.05" layer="39"/>
-<wire x1="8" y1="-7.25" x2="8" y2="8.5" width="0.05" layer="39"/>
-<wire x1="8" y1="8.5" x2="-8" y2="8.5" width="0.05" layer="39"/>
-<wire x1="-8" y1="8.5" x2="-8" y2="-7.25" width="0.05" layer="39"/>
-<text x="-8.01573125" y="-6.76326875" size="1.272490625" layer="25" rot="R90">&gt;NAME</text>
-<text x="9.275240625" y="-6.76841875" size="1.273459375" layer="27" rot="R90">&gt;VALUE</text>
-<wire x1="-7.07" y1="7.28" x2="-7.07" y2="8.225" width="0.127" layer="21"/>
-<wire x1="-7.07" y1="8.225" x2="7.07" y2="8.225" width="0.127" layer="21"/>
-<wire x1="7.07" y1="8.225" x2="7.07" y2="7.28" width="0.127" layer="21"/>
-<wire x1="-1.8" y1="-6.725" x2="3.9" y2="-6.725" width="0.127" layer="21"/>
-<circle x="-3.81" y="8.89" radius="0.1" width="0.2" layer="21"/>
-<smd name="1" x="-2.9" y="6.355" dx="0.8" dy="1.24" layer="1"/>
-<smd name="2" x="-1.8" y="6.355" dx="0.8" dy="1.24" layer="1"/>
-<smd name="3" x="-0.7" y="6.355" dx="0.8" dy="1.24" layer="1"/>
-<smd name="4" x="0.4" y="6.355" dx="0.8" dy="1.24" layer="1"/>
-<smd name="5" x="1.5" y="6.355" dx="0.8" dy="1.24" layer="1"/>
-<smd name="6" x="2.6" y="6.355" dx="0.8" dy="1.24" layer="1"/>
-<smd name="7" x="3.7" y="6.355" dx="0.8" dy="1.24" layer="1"/>
-<smd name="8" x="4.8" y="6.355" dx="0.8" dy="1.24" layer="1"/>
-<smd name="P1" x="-7.245" y="5.725" dx="0.95" dy="2.5" layer="1"/>
-<smd name="P2" x="7.145" y="5.875" dx="1.15" dy="2.2" layer="1"/>
-<smd name="SW" x="6.74" y="3.725" dx="1.16" dy="1.25" layer="1"/>
-<smd name="DT" x="6.74" y="-5.275" dx="1.16" dy="1.2" layer="1"/>
-<smd name="P3" x="-7.145" y="-5.605" dx="1.15" dy="2.2" layer="1"/>
-<smd name="P4" x="-2.84" y="-6.4" dx="1.5" dy="1.15" layer="1"/>
-<smd name="P5" x="4.94" y="-6.4" dx="1.5" dy="1.15" layer="1"/>
-</package>
-</packages>
-<symbols>
-<symbol name="503182-1852">
-<wire x1="0" y1="17.78" x2="0" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="0" y1="-17.78" x2="12.7" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-17.78" x2="12.7" y2="17.78" width="0.254" layer="94"/>
-<wire x1="12.7" y1="17.78" x2="0" y2="17.78" width="0.254" layer="94"/>
-<text x="0" y="18.3612" size="2.55016875" layer="95">&gt;NAME</text>
-<text x="0" y="-20.8997" size="2.54873125" layer="96">&gt;VALUE</text>
-<pin name="DATA2" x="-5.08" y="15.24" length="middle"/>
-<pin name="CD/DAT3" x="-5.08" y="12.7" length="middle"/>
-<pin name="CMD" x="-5.08" y="10.16" length="middle"/>
-<pin name="CLK" x="-5.08" y="5.08" length="middle" function="clk"/>
-<pin name="DAT0" x="-5.08" y="0" length="middle"/>
-<pin name="DAT1" x="-5.08" y="-2.54" length="middle"/>
-<pin name="VDD" x="-5.08" y="7.62" length="middle" direction="pwr"/>
-<pin name="VSS" x="-5.08" y="2.54" length="middle" direction="pwr"/>
-<pin name="DETECT" x="-5.08" y="-7.62" length="middle"/>
-<pin name="SWITCH" x="-5.08" y="-10.16" length="middle"/>
-<pin name="SHIELD" x="-5.08" y="-15.24" length="middle" direction="pas"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="503182-1852" prefix="J">
-<description>Conn Micro SD Card M 8 POS 1.09mm Solder RA SMD Embossed T/R 0.5A/Contact</description>
-<gates>
-<gate name="G$1" symbol="503182-1852" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="MOLEX_503182-1852">
-<connects>
-<connect gate="G$1" pin="CD/DAT3" pad="2"/>
-<connect gate="G$1" pin="CLK" pad="5"/>
-<connect gate="G$1" pin="CMD" pad="3"/>
-<connect gate="G$1" pin="DAT0" pad="7"/>
-<connect gate="G$1" pin="DAT1" pad="8"/>
-<connect gate="G$1" pin="DATA2" pad="1"/>
-<connect gate="G$1" pin="DETECT" pad="DT"/>
-<connect gate="G$1" pin="SHIELD" pad="P1 P2 P3 P4 P5"/>
-<connect gate="G$1" pin="SWITCH" pad="SW"/>
-<connect gate="G$1" pin="VDD" pad="4"/>
-<connect gate="G$1" pin="VSS" pad="6"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="MICRO SD NORMAL ULTRALOWPRO8CKTE"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="WM12834CT-ND"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/molex-llc/5031821852/WM12834CT-ND/5823232?WT.z_cid=ref_snapeda&amp;utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=buynow"/>
-<attribute name="MF" value="Molex"/>
-<attribute name="MP" value="5031821852"/>
-<attribute name="PACKAGE" value="None"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="TPS62162-Q1">
 <packages>
 <package name="DSG0008A">
@@ -9860,6 +9765,104 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="DM3CS-SF">
+<packages>
+<package name="HRS_DM3CS-SF">
+<rectangle x1="-5.058440625" y1="1.65275" x2="3.75" y2="4.15" layer="43"/>
+<wire x1="-6.7" y1="-4.2" x2="-6.7" y2="7.05" width="0.127" layer="21"/>
+<wire x1="7.1" y1="7.05" x2="7.1" y2="-4.2" width="0.127" layer="21"/>
+<wire x1="7.1" y1="-7.05" x2="6" y2="-7.05" width="0.127" layer="51"/>
+<wire x1="6" y1="-7.05" x2="4.5" y2="-5.7" width="0.127" layer="51" curve="90"/>
+<wire x1="4.5" y1="-5.7" x2="-4.6" y2="-5.7" width="0.127" layer="51"/>
+<wire x1="-4.6" y1="-5.7" x2="-6.1" y2="-7.05" width="0.127" layer="51" curve="90"/>
+<wire x1="-6.1" y1="-7.05" x2="-6.7" y2="-7.05" width="0.127" layer="51"/>
+<text x="-7.04001875" y="8.04573125" size="1.277259375" layer="25">&gt;NAME</text>
+<text x="-7.03105" y="-9.542140625" size="1.275640625" layer="27">&gt;VALUE</text>
+<rectangle x1="-5.053440625" y1="1.65111875" x2="3.75" y2="4.15" layer="41"/>
+<rectangle x1="-6.91571875" y1="-4.560359375" x2="-6.3" y2="-0.75" layer="41"/>
+<rectangle x1="6.7137" y1="-4.5593" x2="7.3" y2="-0.75" layer="41"/>
+<rectangle x1="-6.925959375" y1="-4.567109375" x2="-6.3" y2="-0.75" layer="43"/>
+<rectangle x1="6.721209375" y1="-4.564409375" x2="7.3" y2="-0.75" layer="43"/>
+<wire x1="-6.7" y1="-7.05" x2="-6.7" y2="7.05" width="0.127" layer="51"/>
+<wire x1="-6.7" y1="7.05" x2="7.1" y2="7.05" width="0.127" layer="51"/>
+<wire x1="7.1" y1="7.05" x2="7.1" y2="-7.05" width="0.127" layer="51"/>
+<wire x1="-6.7" y1="7.05" x2="-4.826" y2="7.05" width="0.127" layer="21"/>
+<wire x1="7.1" y1="7.05" x2="5.7" y2="7.05" width="0.127" layer="21"/>
+<wire x1="-7.35" y1="7.3" x2="-7.35" y2="-7.6" width="0.05" layer="39"/>
+<wire x1="-7.35" y1="-7.6" x2="7.75" y2="-7.6" width="0.05" layer="39"/>
+<wire x1="7.75" y1="-7.6" x2="7.75" y2="7.3" width="0.05" layer="39"/>
+<wire x1="7.75" y1="7.3" x2="-7.35" y2="7.3" width="0.05" layer="39"/>
+<circle x="3.8" y="-7.9" radius="0.12" width="0.24" layer="21"/>
+<smd name="8" x="-4.5" y="-6.35" dx="0.7" dy="2" layer="1"/>
+<smd name="7" x="-3.4" y="-6.35" dx="0.7" dy="2" layer="1"/>
+<smd name="6" x="-2.3" y="-6.35" dx="0.7" dy="2" layer="1"/>
+<smd name="5" x="-1.2" y="-6.35" dx="0.7" dy="2" layer="1"/>
+<smd name="4" x="-0.1" y="-6.35" dx="0.7" dy="2" layer="1"/>
+<smd name="3" x="1" y="-6.35" dx="0.7" dy="2" layer="1"/>
+<smd name="2" x="2.1" y="-6.35" dx="0.7" dy="2" layer="1"/>
+<smd name="1" x="3.2" y="-6.35" dx="0.7" dy="2" layer="1"/>
+<smd name="S1" x="-6.6" y="-5.85" dx="1" dy="2.6" layer="1"/>
+<smd name="S2" x="6.75" y="-5.85" dx="1.5" dy="2.6" layer="1"/>
+<smd name="9" x="1.8" y="6.35" dx="2.7" dy="1.4" layer="1"/>
+<smd name="S3" x="-3.1" y="6.35" dx="2.7" dy="1.4" layer="1"/>
+<smd name="S5" x="4.85" y="6.45" dx="1.2" dy="1.2" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="DM3CS-SF">
+<wire x1="-7.62" y1="17.78" x2="-7.62" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-17.78" x2="7.62" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-17.78" x2="7.62" y2="17.78" width="0.254" layer="94"/>
+<wire x1="7.62" y1="17.78" x2="-7.62" y2="17.78" width="0.254" layer="94"/>
+<text x="-7.62998125" y="19.102" size="2.547840625" layer="95">&gt;NAME</text>
+<text x="-7.640540625" y="-21.1643" size="2.550440625" layer="96">&gt;VALUE</text>
+<pin name="DAT0" x="-12.7" y="0" length="middle" direction="pas"/>
+<pin name="DAT1" x="-12.7" y="-2.54" length="middle" direction="pas"/>
+<pin name="DAT2" x="-12.7" y="-5.08" length="middle" direction="pas"/>
+<pin name="CD/DAT3" x="-12.7" y="-7.62" length="middle" direction="pas"/>
+<pin name="CMD" x="-12.7" y="10.16" length="middle" direction="pas"/>
+<pin name="CLK" x="-12.7" y="7.62" length="middle" direction="pas" function="clk"/>
+<pin name="VDD" x="-12.7" y="15.24" length="middle" direction="pas"/>
+<pin name="VSS" x="-12.7" y="-12.7" length="middle" direction="pas"/>
+<pin name="GND" x="-12.7" y="-15.24" length="middle" direction="pas"/>
+<pin name="CD_SW" x="-12.7" y="5.08" length="middle" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DM3CS-SF" prefix="J">
+<description>CONN MICRO SD CARD HINGED TYPE</description>
+<gates>
+<gate name="G$1" symbol="DM3CS-SF" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HRS_DM3CS-SF">
+<connects>
+<connect gate="G$1" pin="CD/DAT3" pad="2"/>
+<connect gate="G$1" pin="CD_SW" pad="9"/>
+<connect gate="G$1" pin="CLK" pad="5"/>
+<connect gate="G$1" pin="CMD" pad="3"/>
+<connect gate="G$1" pin="DAT0" pad="7"/>
+<connect gate="G$1" pin="DAT1" pad="8"/>
+<connect gate="G$1" pin="DAT2" pad="1"/>
+<connect gate="G$1" pin="GND" pad="S1 S2 S3 S5"/>
+<connect gate="G$1" pin="VDD" pad="4"/>
+<connect gate="G$1" pin="VSS" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value=" Conn Micro SD Card HDR 8 POS 1.1mm Solder RA SMD Embossed T/R 0.5A "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="HR1972CT-ND"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/hirose-electric-co-ltd/DM3CS-SF/HR1972CT-ND/2602740?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
+<attribute name="MF" value="Hirose"/>
+<attribute name="MP" value="DM3CS-SF"/>
+<attribute name="PACKAGE" value="None"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -9895,7 +9898,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R21" library="resistor" deviceset="R-US_" device="R0603" value="1.6k"/>
 <part name="R24" library="resistor" deviceset="R-US_" device="R0603" value="1.6k"/>
 <part name="R25" library="resistor" deviceset="R-US_" device="R0603" value="1.6k"/>
-<part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R5" library="resistor" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="SUPPLY15" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="C9" library="resistor" deviceset="C-US" device="C0603" value="100n"/>
@@ -9907,13 +9909,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND19" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="SUPPLY19" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="R41" library="resistor" deviceset="R-US_" device="R0603" value="64.9"/>
 <part name="LED0" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="2V @ 20mA"/>
-<part name="SD" library="molex-microSD" deviceset="503182-1852" device=""/>
-<part name="C23" library="resistor" deviceset="C-US" device="C0603" value="100n"/>
-<part name="R31" library="resistor" deviceset="R-US_" device="R0603" value="10k"/>
-<part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="R28" library="resistor" deviceset="R-US_" device="R0603" value="64.9"/>
 <part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="2V @ 20mA"/>
@@ -9943,8 +9940,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R38" library="resistor" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="R39" library="resistor" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="SUPPLY18" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="R1" library="resistor" deviceset="R-US_" device="R0603" value="10k"/>
-<part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="FUNC" library="SparkFun-Switches" deviceset="SWITCH-SPDT" device="-SMD-AYZ0202"/>
 <part name="GND9" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -9960,6 +9955,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SWD" library="senior-design-custom" deviceset="DEBUG-HEADER" device=""/>
 <part name="GND13" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="MCARD" library="DM3CS-SF" deviceset="DM3CS-SF" device=""/>
+<part name="SUPPLY17" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="R8" library="resistor" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="SUPPLY20" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="GND21" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="C10" library="resistor" deviceset="C-US" device="C0603" value="100n"/>
 </parts>
 <sheets>
 <sheet>
@@ -10017,7 +10018,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="R21" gate="G$1" x="342.9" y="71.12" rot="R270"/>
 <instance part="R24" gate="G$1" x="365.76" y="71.12" rot="R270"/>
 <instance part="R25" gate="G$1" x="388.62" y="71.12" rot="R270"/>
-<instance part="GND5" gate="1" x="208.28" y="205.74"/>
 <instance part="R5" gate="G$1" x="76.2" y="109.22" rot="R270"/>
 <instance part="SUPPLY15" gate="G$1" x="76.2" y="116.84"/>
 <instance part="C9" gate="G$1" x="256.54" y="165.1"/>
@@ -10029,13 +10029,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND4" gate="1" x="378.46" y="223.52"/>
 <instance part="GND19" gate="1" x="373.38" y="241.3"/>
 <instance part="SUPPLY8" gate="G$1" x="172.72" y="111.76"/>
-<instance part="SUPPLY19" gate="G$1" x="208.28" y="248.92"/>
 <instance part="R41" gate="G$1" x="236.22" y="93.98" rot="R90"/>
 <instance part="LED0" gate="G$1" x="236.22" y="106.68"/>
-<instance part="SD" gate="G$1" x="236.22" y="231.14"/>
-<instance part="C23" gate="G$1" x="198.12" y="236.22"/>
-<instance part="R31" gate="G$1" x="180.34" y="231.14" rot="R270"/>
-<instance part="SUPPLY6" gate="G$1" x="180.34" y="238.76"/>
 <instance part="SUPPLY9" gate="G$1" x="236.22" y="114.3"/>
 <instance part="R28" gate="G$1" x="226.06" y="93.98" rot="R90"/>
 <instance part="LED1" gate="G$1" x="226.06" y="106.68"/>
@@ -10068,8 +10063,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="R38" gate="G$1" x="58.42" y="231.14" rot="R270"/>
 <instance part="R39" gate="G$1" x="48.26" y="231.14" rot="R270"/>
 <instance part="SUPPLY18" gate="G$1" x="53.34" y="241.3"/>
-<instance part="R1" gate="G$1" x="218.44" y="251.46" rot="R270"/>
-<instance part="SUPPLY10" gate="G$1" x="218.44" y="259.08"/>
 <instance part="SUPPLY11" gate="G$1" x="373.38" y="251.46"/>
 <instance part="FUNC" gate="1" x="198.12" y="68.58"/>
 <instance part="GND9" gate="1" x="205.74" y="60.96"/>
@@ -10086,6 +10079,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="SWD" gate="A" x="226.06" y="43.18"/>
 <instance part="GND13" gate="1" x="208.28" y="15.24"/>
 <instance part="SUPPLY5" gate="G$1" x="208.28" y="48.26"/>
+<instance part="MCARD" gate="G$1" x="238.76" y="236.22"/>
+<instance part="SUPPLY17" gate="G$1" x="213.36" y="254"/>
+<instance part="R8" gate="G$1" x="195.58" y="238.76" rot="R270"/>
+<instance part="SUPPLY20" gate="G$1" x="195.58" y="248.92"/>
+<instance part="GND21" gate="1" x="195.58" y="205.74"/>
+<instance part="C10" gate="G$1" x="185.42" y="226.06"/>
 </instances>
 <busses>
 </busses>
@@ -10179,22 +10178,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="SUPPLY8" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<pinref part="SD" gate="G$1" pin="VDD"/>
-<pinref part="SUPPLY19" gate="G$1" pin="3.3V"/>
-<wire x1="231.14" y1="238.76" x2="208.28" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="238.76" x2="208.28" y2="241.3" width="0.1524" layer="91"/>
-<pinref part="C23" gate="G$1" pin="1"/>
-<wire x1="208.28" y1="241.3" x2="208.28" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="241.3" x2="198.12" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="241.3" x2="198.12" y2="238.76" width="0.1524" layer="91"/>
-<junction x="208.28" y="241.3"/>
-</segment>
-<segment>
-<pinref part="R31" gate="G$1" pin="1"/>
-<wire x1="180.34" y1="236.22" x2="180.34" y2="238.76" width="0.1524" layer="91"/>
-<pinref part="SUPPLY6" gate="G$1" pin="3.3V"/>
-</segment>
-<segment>
 <pinref part="SUPPLY9" gate="G$1" pin="3.3V"/>
 <pinref part="LED0" gate="G$1" pin="A"/>
 <wire x1="236.22" y1="114.3" x2="236.22" y2="111.76" width="0.1524" layer="91"/>
@@ -10262,11 +10245,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="SUPPLY18" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="218.44" y1="256.54" x2="218.44" y2="259.08" width="0.1524" layer="91"/>
-<pinref part="SUPPLY10" gate="G$1" pin="3.3V"/>
-</segment>
-<segment>
 <pinref part="SUPPLY11" gate="G$1" pin="3.3V"/>
 <pinref part="VDD" gate="G$1" pin="1"/>
 <wire x1="373.38" y1="251.46" x2="373.38" y2="248.92" width="0.1524" layer="91"/>
@@ -10288,6 +10266,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="210.82" y="43.18" size="1.778" layer="95"/>
 <wire x1="208.28" y1="43.18" x2="208.28" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="SUPPLY5" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="MCARD" gate="G$1" pin="VDD"/>
+<pinref part="SUPPLY17" gate="G$1" pin="3.3V"/>
+<wire x1="226.06" y1="251.46" x2="213.36" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="251.46" x2="213.36" y2="254" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="SUPPLY20" gate="G$1" pin="3.3V"/>
+<wire x1="195.58" y1="243.84" x2="195.58" y2="246.38" width="0.1524" layer="91"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="195.58" y1="246.38" x2="195.58" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="246.38" x2="185.42" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="246.38" x2="185.42" y2="228.6" width="0.1524" layer="91"/>
+<junction x="195.58" y="246.38"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -10372,26 +10366,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="396.24" y1="246.38" x2="373.38" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="373.38" y1="246.38" x2="373.38" y2="243.84" width="0.1524" layer="91"/>
 <pinref part="GND19" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="SD" gate="G$1" pin="VSS"/>
-<wire x1="231.14" y1="233.68" x2="208.28" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="233.68" x2="208.28" y2="228.6" width="0.1524" layer="91"/>
-<pinref part="GND5" gate="1" pin="GND"/>
-<pinref part="SD" gate="G$1" pin="SHIELD"/>
-<wire x1="208.28" y1="228.6" x2="208.28" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="220.98" x2="208.28" y2="215.9" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="215.9" x2="208.28" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="215.9" x2="208.28" y2="215.9" width="0.1524" layer="91"/>
-<junction x="208.28" y="215.9"/>
-<pinref part="C23" gate="G$1" pin="2"/>
-<wire x1="208.28" y1="228.6" x2="198.12" y2="228.6" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="228.6" x2="198.12" y2="231.14" width="0.1524" layer="91"/>
-<junction x="208.28" y="228.6"/>
-<pinref part="SD" gate="G$1" pin="SWITCH"/>
-<wire x1="231.14" y1="220.98" x2="208.28" y2="220.98" width="0.1524" layer="91"/>
-<label x="210.82" y="220.98" size="1.778" layer="95"/>
-<junction x="208.28" y="220.98"/>
 </segment>
 <segment>
 <pinref part="REG" gate="A" pin="PGND"/>
@@ -10511,6 +10485,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="208.28" y="33.02"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="MCARD" gate="G$1" pin="GND"/>
+<wire x1="226.06" y1="220.98" x2="218.44" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="220.98" x2="195.58" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="220.98" x2="195.58" y2="215.9" width="0.1524" layer="91"/>
+<pinref part="GND21" gate="1" pin="GND"/>
+<wire x1="195.58" y1="215.9" x2="195.58" y2="208.28" width="0.1524" layer="91"/>
+<pinref part="C10" gate="G$1" pin="2"/>
+<wire x1="185.42" y1="220.98" x2="185.42" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="215.9" x2="195.58" y2="215.9" width="0.1524" layer="91"/>
+<junction x="195.58" y="215.9"/>
+<pinref part="MCARD" gate="G$1" pin="VSS"/>
+<wire x1="226.06" y1="223.52" x2="218.44" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="223.52" x2="218.44" y2="220.98" width="0.1524" layer="91"/>
+<junction x="218.44" y="220.98"/>
+</segment>
 </net>
 <net name="VDDCORE" class="0">
 <segment>
@@ -10599,16 +10589,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="SD_CS" class="0">
 <segment>
-<wire x1="218.44" y1="243.84" x2="218.44" y2="246.38" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="SD" gate="G$1" pin="CD/DAT3"/>
-<wire x1="231.14" y1="243.84" x2="218.44" y2="243.84" width="0.1524" layer="91"/>
-<label x="220.98" y="243.84" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="MCU" gate="G$1" pin="PB10(SER4:2+)"/>
 <wire x1="165.1" y1="35.56" x2="182.88" y2="35.56" width="0.1524" layer="91"/>
 <label x="167.64" y="35.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="MCARD" gate="G$1" pin="CD/DAT3"/>
+<wire x1="226.06" y1="228.6" x2="195.58" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="228.6" x2="195.58" y2="233.68" width="0.1524" layer="91"/>
+<label x="205.74" y="228.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MCU_TX" class="0">
@@ -10703,16 +10693,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="SD_CD" class="0">
 <segment>
-<label x="210.82" y="223.52" size="1.778" layer="95"/>
-<pinref part="SD" gate="G$1" pin="DETECT"/>
-<wire x1="231.14" y1="223.52" x2="180.34" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="223.52" x2="180.34" y2="226.06" width="0.1524" layer="91"/>
-<pinref part="R31" gate="G$1" pin="2"/>
-</segment>
-<segment>
 <pinref part="MCU" gate="G$1" pin="PA07(AIN7/SER0:3/TC1:1)"/>
 <wire x1="96.52" y1="53.34" x2="76.2" y2="53.34" width="0.1524" layer="91"/>
 <label x="76.2" y="53.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="MCARD" gate="G$1" pin="CD_SW"/>
+<wire x1="226.06" y1="241.3" x2="205.74" y2="241.3" width="0.1524" layer="91"/>
+<label x="205.74" y="241.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO4" class="0">
@@ -10868,38 +10856,38 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="SER0_P1_CLK" class="0">
 <segment>
-<wire x1="231.14" y1="236.22" x2="208.28" y2="236.22" width="0.1524" layer="91"/>
-<label x="208.28" y="236.22" size="1.778" layer="95"/>
-<pinref part="SD" gate="G$1" pin="CLK"/>
-</segment>
-<segment>
 <wire x1="165.1" y1="91.44" x2="182.88" y2="91.44" width="0.1524" layer="91"/>
 <label x="167.64" y="91.44" size="1.778" layer="95"/>
 <pinref part="MCU" gate="G$1" pin="PA09(I2C/AIN17/SER0:1+)"/>
 </segment>
+<segment>
+<pinref part="MCARD" gate="G$1" pin="CLK"/>
+<wire x1="226.06" y1="243.84" x2="205.74" y2="243.84" width="0.1524" layer="91"/>
+<label x="205.74" y="243.84" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SER0_P3_DO" class="0">
-<segment>
-<wire x1="231.14" y1="241.3" x2="210.82" y2="241.3" width="0.1524" layer="91"/>
-<label x="210.82" y="241.3" size="1.778" layer="95"/>
-<pinref part="SD" gate="G$1" pin="CMD"/>
-</segment>
 <segment>
 <wire x1="165.1" y1="86.36" x2="182.88" y2="86.36" width="0.1524" layer="91"/>
 <label x="167.64" y="86.36" size="1.778" layer="95"/>
 <pinref part="MCU" gate="G$1" pin="PA11(AIN19/SER0:3+)"/>
 </segment>
+<segment>
+<pinref part="MCARD" gate="G$1" pin="CMD"/>
+<wire x1="226.06" y1="246.38" x2="205.74" y2="246.38" width="0.1524" layer="91"/>
+<label x="205.74" y="246.38" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SER0_P0_DI" class="0">
-<segment>
-<wire x1="231.14" y1="231.14" x2="210.82" y2="231.14" width="0.1524" layer="91"/>
-<label x="210.82" y="231.14" size="1.778" layer="95"/>
-<pinref part="SD" gate="G$1" pin="DAT0"/>
-</segment>
 <segment>
 <wire x1="165.1" y1="93.98" x2="182.88" y2="93.98" width="0.1524" layer="91"/>
 <label x="167.64" y="93.98" size="1.778" layer="95"/>
 <pinref part="MCU" gate="G$1" pin="PA08(I2C/AIN16/SER0:0+)"/>
+</segment>
+<segment>
+<pinref part="MCARD" gate="G$1" pin="DAT0"/>
+<wire x1="226.06" y1="236.22" x2="205.74" y2="236.22" width="0.1524" layer="91"/>
+<label x="205.74" y="236.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DATA_DIR" class="0">
@@ -11017,10 +11005,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="104,1,467.36,88.9,U2,VCC,3.3V,,,"/>
-<approved hash="113,1,391.397,167.866,VDUC,,,,,"/>
-</errors>
 </schematic>
 </drawing>
 <compatibility>

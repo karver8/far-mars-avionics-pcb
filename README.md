@@ -31,9 +31,7 @@ Here is everything you need to know to interact with this PCB and/or to write yo
 * Development Notes
 
 ### Assembly
-We highly recommend that you outsource the assembly of the PCB. This design has a lot of tiny surface mount components, on both sides of the board, so unless you have experience reflowing on two sides this will be an almost impossble to assemble yourself. We used MacroFab for the most recent version of this PCB. The current BOM is also optimized to take advantage of their 10-day turnaround service.
-#####Assembly Resources
+We highly recommend that you outsource the assembly of the PCB. This design has a lot of tiny surface mount components, on both sides of the board, so unless you have experience reflowing on two sides this will be an almost impossble to assemble yourself. We used MacroFab for the most recent version of this PCB. The current BOM is also optimized to take advantage of their 10-day turnaround service. Here is everything you need to assemble your own avionics controller.
 * Bill of Materials
 * Eagle Libraries
 * Physical Summary
-                                                                                                                                                                                                            	| N/A      	| N/A         	|

@@ -16,7 +16,7 @@ The **far-mars-avionics-controller** is a custom built printed circuit board tha
 * Power Effecient enabling the use of a tiny battery
 * Very light, weighs less than an ounce of feathers!
 * Built-in battery charge monitoring.
-* Highly accruate crystal for detailed timestamping.
+* Highly accurate crystal for detailed timestamping.
 
 ### Firmware
 
@@ -25,7 +25,7 @@ The FAR/MARS rocket uses a FreeRTOS implementation to safley and predictabley ma
 ### Documentation
 Here is everything you need to interface with this PCB and/or to write your own drivers and firmware:
 * far-mars-avionics-controller Datasheet
-* Pinout
+* [Pinout](https://github.com/SDSURocketProject/far-mars-avionics-pcb/blob/master/documentation/pinout.pdf "Pinout")
 * Errata
 * [Device Datasheet Collection](https://github.com/SDSURocketProject/far-mars-avionics-pcb/tree/master/documentation/Datasheets "Device Datasheet Collection")
 * Development Notes
@@ -36,6 +36,6 @@ We highly recommend that you outsource the assembly of this PCB. This design has
 * Eagle Libraries
 * Gerber Files
 * [Instructions](https://github.com/SDSURocketProject/far-mars-avionics-pcb/tree/master/assembly#assembly-guide "Instructions")
-* [Physical Summary Slides](https://github.com/SDSURocketProject/far-mars-avionics-pcb/blob/master/assembly/Physical%20Summary.pdf "Physical Summary")
+* [Design Slides](https://github.com/SDSURocketProject/far-mars-avionics-pcb/blob/master/assembly/Physical%20Summary.pdf "Physical Summary")
 * **Schematic & Layout Files are in the top directory**
 

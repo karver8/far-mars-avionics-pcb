@@ -44,4 +44,8 @@ eagle.epf
 
 *.dxf
 
-bomformarkdown.csv
+*.formarkdown.csv
+*.pre.png
+*.psd
+*.docx
+*.xlsx

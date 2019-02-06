@@ -3,14 +3,14 @@
 <eagle version="9.2.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -23,20 +23,20 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -48,11 +48,11 @@
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
@@ -60,7 +60,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="12" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -4295,20 +4295,20 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="SPICEPREFIX" value="C" x="39.116" y="35.3314" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="41.021" y="34.6964" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="100n" x="14.2748" y="36.9443" smashed="yes" rot="R270">
-<attribute name="NAME" x="13.97" y="35.3441" size="0.8128" layer="25" rot="R270"/>
-<attribute name="SPICEPREFIX" value="C" x="14.2748" y="36.9443" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="12.3698" y="37.5793" size="1.27" layer="27" rot="R270"/>
+<element name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="100n" x="16.3322" y="34.5313" smashed="yes" rot="R270">
+<attribute name="NAME" x="15.9258" y="37.6047" size="0.8128" layer="25" rot="R270"/>
+<attribute name="SPICEPREFIX" value="C" x="16.3322" y="34.5313" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="14.4272" y="35.1663" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="L6" library="Protezione" package="0805" value="MH2029-300Y" x="12.3063" y="36.9443" smashed="yes" rot="R270">
-<attribute name="CASE" value="" x="12.3063" y="36.9443" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MONTHLY_USAGE" value="_____" x="12.3063" y="36.9443" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="11.8364" y="34.1503" size="0.8128" layer="25" rot="R270"/>
-<attribute name="PART_NUMBER" value="BLM21PG300SN1D_/_MH2029-300Y" x="12.3063" y="36.9443" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PRICE" value="_____" x="12.3063" y="36.9443" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SUPPLIER" value="_____" x="12.3063" y="36.9443" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TYPE" value="Protezione" x="12.3063" y="36.9443" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="13.2588" y="38.8493" size="0.6096" layer="27" rot="R270"/>
+<element name="L6" library="Protezione" package="0805" value="MH2029-300Y" x="17.7927" y="34.2773" smashed="yes" rot="R270">
+<attribute name="CASE" value="" x="17.7927" y="34.2773" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MONTHLY_USAGE" value="_____" x="17.7927" y="34.2773" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="17.3736" y="37.9095" size="0.8128" layer="25" rot="R270"/>
+<attribute name="PART_NUMBER" value="BLM21PG300SN1D_/_MH2029-300Y" x="17.7927" y="34.2773" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="_____" x="17.7927" y="34.2773" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SUPPLIER" value="_____" x="17.7927" y="34.2773" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TYPE" value="Protezione" x="17.7927" y="34.2773" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="14.1478" y="37.8587" size="0.6096" layer="27" rot="R270"/>
 </element>
 <element name="MCU" library="SparkFun-IC-Microcontroller" package="TQFP-48" value="ATSAMC21G18-A" x="25.4" y="25.4" smashed="yes" rot="R315">
 <attribute name="NAME" x="29.1780875" y="29.16713125" size="0.8128" layer="25" ratio="10" rot="R315" align="bottom-center"/>
@@ -4325,14 +4325,14 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="SPICEPREFIX" value="C" x="37.2618" y="10.8458" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="36.6268" y="8.9408" size="1.27" layer="27"/>
 </element>
-<element name="R28" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="120" x="5.0927" y="36.8808" smashed="yes" rot="R90">
-<attribute name="NAME" x="5.4737" y="38.989" size="0.8128" layer="25" rot="R90"/>
-<attribute name="SPICEPREFIX" value="R" x="5.0927" y="36.8808" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="6.9977" y="36.2458" size="1.27" layer="27" rot="R90"/>
+<element name="R28" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="120" x="18.0213" y="43.8404" smashed="yes" rot="R90">
+<attribute name="NAME" x="18.4277" y="40.2844" size="0.8128" layer="25" rot="R90"/>
+<attribute name="SPICEPREFIX" value="R" x="18.0213" y="43.8404" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="21.0947" y="43.4594" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="LED0" library="adafruit" package="CHIPLED_0603" value="2V @ 20mA" x="6.8453" y="36.8808" smashed="yes">
-<attribute name="NAME" x="7.2263" y="38.4556" size="0.8128" layer="25" rot="R90"/>
-<attribute name="VALUE" x="7.0485" y="35.4076" size="1.27" layer="27" rot="R90"/>
+<element name="LED0" library="adafruit" package="CHIPLED_0603" value="2V @ 20mA" x="18.0213" y="46.355" smashed="yes" rot="R180">
+<attribute name="NAME" x="19.0119" y="47.9044" size="0.8128" layer="25" rot="R270"/>
+<attribute name="VALUE" x="21.7551" y="49.7332" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="U1" library="half-dup-485" package="D8" value="SN65HVD10_D_8" x="37.211" y="14.986" smashed="yes">
 <attribute name="DATASHEETURL" value="httpwww.ti.comlitgpnSN65HVD10" x="37.211" y="14.986" size="1.778" layer="27" display="off"/>
@@ -4523,12 +4523,12 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/ecs-inc/ECS-.327-6-17X-TR/XC1307CT-ND/827771?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="22.9362" y="36.703" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="ECS Inc." x="22.9362" y="36.703" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MP" value="ECS-.327-6-17X-TR" x="22.9362" y="36.703" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="19.6307875" y="39.157965625" size="0.751659375" layer="25" rot="R90"/>
+<attribute name="NAME" x="23.427634375" y="42.0589875" size="0.751659375" layer="25" rot="R180"/>
 <attribute name="PACKAGE" value="4-4 ECS International" x="22.9362" y="36.703" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="26.565496875" y="33.065696875" size="0.7508875" layer="27" rot="R90"/>
 </element>
 <element name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="15p" x="19.2532" y="34.5186" smashed="yes" rot="R90">
-<attribute name="NAME" x="18.3388" y="33.528" size="0.8128" layer="25" rot="R90"/>
+<attribute name="NAME" x="19.685" y="36.195" size="0.8128" layer="25" rot="R90"/>
 <attribute name="SPICEPREFIX" value="C" x="19.2532" y="34.5186" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="21.1582" y="33.8836" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -4596,9 +4596,6 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <wire x1="19.25626875" y1="20.316928125" x2="18.922996875" y2="20.6502" width="0.254" layer="1"/>
 <wire x1="18.922996875" y1="20.6502" x2="17.6784" y2="20.6502" width="0.254" layer="1"/>
 <via x="17.6784" y="20.6502" extent="1-16" drill="0.35"/>
-<wire x1="6.8453" y1="36.1308" x2="7.62" y2="36.1308" width="0.254" layer="1"/>
-<wire x1="7.62" y1="36.1308" x2="7.62" y2="34.29" width="0.254" layer="1"/>
-<via x="7.62" y="34.29" extent="1-16" drill="0.35"/>
 <wire x1="16.9418" y1="15.7344" x2="17.5514" y2="15.7344" width="0.254" layer="1"/>
 <wire x1="18.669" y1="16.652" x2="17.5514" y2="15.7344" width="0.254" layer="1"/>
 <wire x1="16.9418" y1="15.7344" x2="16.9418" y2="17.4498" width="0.254" layer="1"/>
@@ -4647,6 +4644,9 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <wire x1="30.9198" y1="26.1286" x2="29.7434" y2="26.1286" width="0.254" layer="16"/>
 <wire x1="31.369" y1="23.749" x2="31.369" y2="25.6794" width="0.254" layer="16"/>
 <wire x1="31.369" y1="25.6794" x2="30.9198" y2="26.1286" width="0.254" layer="16"/>
+<wire x1="18.0213" y1="47.105" x2="16.3442" y2="47.105" width="0.254" layer="1"/>
+<wire x1="16.3442" y1="47.105" x2="16.3322" y2="47.117" width="0.254" layer="1"/>
+<via x="16.3322" y="47.117" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="GND">
 <contactref element="MCU" pad="42"/>
@@ -4758,7 +4758,6 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <wire x1="11.2674" y1="22.3672" x2="11.3284" y2="22.4282" width="0.254" layer="16"/>
 <wire x1="6.4144" y1="13.462" x2="6.4144" y2="8.8528" width="0.254" layer="1"/>
 <wire x1="6.4144" y1="8.8528" x2="6.1468" y2="8.5852" width="0.254" layer="1"/>
-<wire x1="19.2532" y1="35.1686" x2="16.6275" y2="37.7943" width="0.254" layer="1"/>
 <wire x1="26.5938" y1="35.1686" x2="27.544" y2="35.1686" width="0.254" layer="1"/>
 <wire x1="27.544" y1="35.1686" x2="27.9654" y2="34.7472" width="0.254" layer="1"/>
 <via x="27.9654" y="34.7472" extent="1-16" drill="0.35"/>
@@ -4847,13 +4846,11 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <contactref element="MCU" pad="6"/>
 <contactref element="C3" pad="2"/>
 <contactref element="L6" pad="2"/>
-<wire x1="12.5563" y1="36.0943" x2="12.4245" y2="35.9625" width="0.254" layer="1"/>
-<wire x1="12.4245" y1="35.9625" x2="12.3063" y2="35.8443" width="0.254" layer="1"/>
-<wire x1="15.05925" y1="36.0943" x2="22.571571875" y2="28.581978125" width="0.254" layer="1"/>
-<wire x1="14.2748" y1="36.2943" x2="14.4748" y2="36.0943" width="0.254" layer="1"/>
-<wire x1="14.4748" y1="36.0943" x2="15.05925" y2="36.0943" width="0.254" layer="1"/>
-<wire x1="14.2748" y1="36.2943" x2="12.7563" y2="36.2943" width="0.254" layer="1"/>
-<wire x1="12.7563" y1="36.2943" x2="12.5563" y2="36.0943" width="0.254" layer="1"/>
+<wire x1="16.3322" y1="33.8813" x2="16.5322" y2="33.6813" width="0.254" layer="1"/>
+<wire x1="16.3322" y1="33.8813" x2="17.0362" y2="33.1773" width="0.254" layer="1"/>
+<wire x1="17.0362" y1="33.1773" x2="17.7927" y2="33.1773" width="0.254" layer="1"/>
+<wire x1="22.571571875" y1="28.581978125" x2="17.97625" y2="33.1773" width="0.254" layer="1"/>
+<wire x1="17.97625" y1="33.1773" x2="17.7927" y2="33.1773" width="0.254" layer="1"/>
 </signal>
 <signal name="SD_CS">
 <contactref element="MCU" pad="19"/>
@@ -4904,8 +4901,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <signal name="N$20">
 <contactref element="LED0" pad="C"/>
 <contactref element="R28" pad="2"/>
-<wire x1="6.8453" y1="37.6308" x2="5.1927" y2="37.6308" width="0.254" layer="1"/>
-<wire x1="5.1927" y1="37.6308" x2="5.0927" y2="37.3808" width="0.254" layer="1"/>
+<wire x1="18.0213" y1="45.605" x2="18.0213" y2="44.3404" width="0.254" layer="1"/>
 </signal>
 <signal name="PA17_SER1_I2C_SCL">
 <contactref element="MCU" pad="26"/>
@@ -5054,16 +5050,16 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <contactref element="R28" pad="1"/>
 <via x="22.7838" y="18.3642" extent="1-16" drill="0.35"/>
 <wire x1="22.5651" y1="21.6916" x2="22.5651" y2="18.5829" width="0.254" layer="15"/>
-<wire x1="22.5651" y1="21.6916" x2="18.0086" y2="21.6916" width="0.254" layer="15"/>
+<wire x1="18.0086" y1="21.6916" x2="22.5651" y2="21.6916" width="0.254" layer="15"/>
 <wire x1="22.5651" y1="18.5829" x2="22.7838" y2="18.3642" width="0.254" layer="15"/>
 <wire x1="22.6568" y1="18.4912" x2="22.7838" y2="18.3642" width="0.254" layer="1"/>
 <wire x1="22.6568" y1="20.889034375" x2="22.6568" y2="18.4912" width="0.254" layer="1"/>
-<wire x1="5.0927" y1="36.3808" x2="5.0927" y2="34.7091" width="0.254" layer="1"/>
-<wire x1="5.0927" y1="34.7091" x2="6.3754" y2="33.4264" width="0.254" layer="1"/>
-<via x="6.3754" y="33.4264" extent="1-16" drill="0.35"/>
-<wire x1="6.3754" y1="33.3248" x2="6.3754" y2="33.4264" width="0.254" layer="15"/>
-<wire x1="18.0086" y1="21.6916" x2="6.3754" y2="33.3248" width="0.254" layer="15"/>
 <wire x1="23.278678125" y1="21.5109125" x2="22.6568" y2="20.889034375" width="0.254" layer="1"/>
+<wire x1="18.0213" y1="43.3404" x2="9.0471" y2="34.3662" width="0.254" layer="1"/>
+<wire x1="9.0471" y1="34.3662" x2="8.9662" y2="34.3662" width="0.254" layer="1"/>
+<via x="8.9662" y="34.3662" extent="1-16" drill="0.35"/>
+<wire x1="8.9662" y1="34.3662" x2="8.9662" y2="30.734" width="0.254" layer="15"/>
+<wire x1="8.9662" y1="30.734" x2="18.0086" y2="21.6916" width="0.254" layer="15"/>
 </signal>
 <signal name="IMU_NRST">
 <contactref element="MCU" pad="28"/>
@@ -5119,9 +5115,6 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <wire x1="36.8935" y1="34.456" x2="36.9189" y2="34.6814" width="0.254" layer="1"/>
 <wire x1="34.6964" y1="34.456" x2="34.6964" y2="33.8074" width="0.254" layer="1"/>
 <wire x1="34.6964" y1="33.8074" x2="33.147" y2="32.258" width="0.254" layer="1"/>
-<via x="13.5636" y="40.5384" extent="1-16" drill="0.35"/>
-<wire x1="13.5636" y1="40.5384" x2="12.3063" y2="39.2811" width="0.508" layer="1"/>
-<wire x1="12.3063" y1="39.2811" x2="12.3063" y2="38.0443" width="0.508" layer="1"/>
 <contactref element="R10" pad="1"/>
 <wire x1="37.3498" y1="30.3276" x2="36.9871" y2="30.3403" width="0.254" layer="1"/>
 <wire x1="11.4206" y1="9.6012" x2="11.4206" y2="11.7696" width="0.8128" layer="1"/>
@@ -5200,6 +5193,9 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <wire x1="10.287" y1="21.4964" x2="10.287" y2="20.8026" width="0.254" layer="16"/>
 <via x="10.287" y="20.8026" extent="1-16" drill="0.35"/>
 <contactref element="IO" pad="1"/>
+<wire x1="17.7927" y1="35.3773" x2="17.7927" y2="39.2303" width="0.254" layer="1"/>
+<wire x1="17.7927" y1="39.2303" x2="17.8054" y2="39.243" width="0.254" layer="1"/>
+<via x="17.8054" y="39.243" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="CAN_TX_5V">
 <contactref element="CAN" pad="1"/>
@@ -5346,9 +5342,6 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <contactref element="IO" pad="9"/>
 <wire x1="21.5109125" y1="27.52131875" x2="19.06023125" y2="29.972" width="0.254" layer="1"/>
 <wire x1="19.06023125" y1="29.972" x2="18.161" y2="29.972" width="0.254" layer="1"/>
-<via x="16.256" y="29.972" extent="1-16" drill="0.35"/>
-<wire x1="18.161" y1="29.972" x2="16.256" y2="29.972" width="0.254" layer="1"/>
-<wire x1="16.256" y1="29.972" x2="18.161" y2="29.972" width="0.254" layer="2"/>
 <via x="18.161" y="29.972" extent="1-16" drill="0.35"/>
 <wire x1="18.161" y1="29.972" x2="23.495" y2="24.638" width="0.254" layer="2"/>
 <wire x1="23.495" y1="24.638" x2="39.9796" y2="24.638" width="0.254" layer="2"/>

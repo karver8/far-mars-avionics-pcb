@@ -26,22 +26,22 @@ Note that some parts list Digikey/Macrofab as the vendor, these parts are stocke
 
 It is highly likley that some of these parts will no longer be in stock, or no longer produced, so if this happens you will need to navigate Digikey or one of their approved suppliers to find a matching alternative.
 
-###5. 10-day Turnaround Optimization
+### 5. 10-day Turnaround Optimization
 Their 10-day turn around services requires that you use fewer than 20 unique parts and no PTH(Throughhole) parts. The one disadvantage of using the 10-day service for this PCB is that you will void the warranty soldering on the headers. If you are time starved or do not care, proceed, if not still remember to DNP(Do not place) the Rocket Project Logo, this is a glitch. 
 
 You will notice that on the far right there are check boxes that say "DNP", this tells Macrofab not to source and assemble that specific part, in case you would like to do it yourself. For the 10-day service, DNP the "SWD" and "20 pin Main Header". Also as said above, DNP the RP Logo that appears on the BOM for whatever reason. You will need to order the parts you DNP so you can add them yourself.
 
 Please note that the 10-day turnaround time is defined as 10 buisness days, not including weekends, the true turn around time is esitmate in the top right of the wizard under where it should now say "10-days". **This does not include shipping time**.
 
-###6. Order Required Components
+### 6. Order Required Components
 In [far-mars-avionics-pcb/assembly/BOM/OffBoard-BOM.csv](https://github.com/SDSURocketProject/far-mars-avionics-pcb/blob/master/assembly/BOM/OffBoard-BOM.csv "far-mars-avionics-pcb/assembly/BOM/OffBoard-BOM.csv") you will find a short list of things you will need to order outside of MacroFab. You need these in order to communicate, power, and flash/program it. If I missed something you feel should be on this list please let me know.
 
 **Make sure to order any parts you DNP in step 5!**
 
-###7. Once you get the PCB
+### 7. Once you get the PCB
 If you plan on using the firmware we wrote, located in a seperate [repository](https://github.com/SDSURocketProject/far-mars-onboard-firmware "repository"), you will need to get a little familiar with the Atmel-ICE programmer and Atmel Studio first. Once you've done this, you can hook up the ICE to the SWD header you will have soldered on by now, and 
 
-###8. Final Remarks
+### 8. Final Remarks
 The far-mars-avionics-controller is entirley functional and usable on any system with similar requirements to the FAR/MARS Lady Elizabeth rocket. Furthermore the CANbus port included in the design, once tested, will also allow for the PCB to interface with virtually any existing CANbus compatible product/system(e.g. Motor Controllers, Thermocouple modules). 
 
 That all said the main purpose of this project was to demonstrate SDSU Rocket Projects ability to design highly purpose built custom electronics, and it was specifically designed around the rules specified by the FAR/MARS rocket competition. This PCB is far from being an all in one solution to any Avionics requirments you may have. The design may find most of its value as a supplement to a larger system. 

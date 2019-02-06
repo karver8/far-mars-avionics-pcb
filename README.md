@@ -2,7 +2,7 @@
 
 ![](https://raw.githubusercontent.com/SDSURocketProject/far-mars-avionics-pcb/master/images/header.png)
 
-The **far-mars-avionics-controller** is a custom built printed circuit board that performs data aquisition, logging, and communication, all in one highly power effecient, light weight, and compact design. This circuit was built around the FAR/MARS rocket competition, which challenges teams to design a LOX/Methane rocket to accuractley target an altitude of 45,000 feet.
+The **far-mars-avionics-controller** is a custom built printed circuit board that performs data aquisition, logging, and communication, all in one highly power effecient, light weight, and compact design. This circuit was built around the FAR/MARS rocket competition, which challenges teams to design a LOX/Methane rocket to accuratley target an altitude of 45,000 feet.
 
 ### Features
 * ARM Cortex M0+ microcontroller
@@ -14,7 +14,7 @@ The **far-mars-avionics-controller** is a custom built printed circuit board tha
 * Locking microSD card slot for secure, vibration resistant data logging
 * 5-17V Input Range allowing for versatile power supply.
 * Power Effecient enabling the use of a tiny battery
-* Very light, weighs less than an ounce of feathers!
+* Very light, weighs less than an ounce!
 * Built-in battery charge monitoring.
 * Highly accurate crystal for detailed timestamping.
 
@@ -26,6 +26,7 @@ The FAR/MARS rocket uses a FreeRTOS implementation to safley and predictabley ma
 Here is everything you need to interface with this PCB and/or to write your own drivers and firmware:
 * far-mars-avionics-controller Datasheet
 * [Pinout](https://github.com/SDSURocketProject/far-mars-avionics-pcb/blob/master/documentation/pinout.pdf "Pinout")
+* Schematic
 * Electrical Specifications
 * [Device Datasheet Collection](https://github.com/SDSURocketProject/far-mars-avionics-pcb/tree/master/documentation/Datasheets "Device Datasheet Collection")
 * Development Notes
@@ -37,4 +38,11 @@ It is highly recommend that you outsource the assembly of this PCB. This design 
 * [Gerber Files](https://github.com/SDSURocketProject/far-mars-avionics-pcb/tree/master/assembly/Gerbers)
 * [Design Slides](https://github.com/SDSURocketProject/far-mars-avionics-pcb/blob/master/assembly/Physical%20Summary.pdf "Physical Summary")
 * **Schematic & Layout Files are in the top directory**
+
+### Remarks
+The far-mars-avionics-controller is entirley functional and usable on any system with similar requirements to the FAR/MARS Lady Elizabeth rocket. Furthermore the CANbus port included in the design, once tested, will also allow for the PCB to interface with virtually any existing CANbus compatible product/system(e.g. Motor Controllers, Thermocouple modules). 
+
+That all said the main purpose of this project was to demonstrate SDSU Rocket Projects ability to design highly purpose built custom electronics, and it was specifically designed around the rules specified by the FAR/MARS rocket competition. This PCB is far from being an all in one solution to any Avionics requirments you may have. The design may find most of its value as a supplement to a larger system. 
+
+
 

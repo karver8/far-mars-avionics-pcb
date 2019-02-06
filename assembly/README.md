@@ -39,7 +39,9 @@ In [far-mars-avionics-pcb/assembly/BOM/OffBoard-BOM.csv](https://github.com/SDSU
 **Make sure to order any parts you DNP in step 5!**
 
 ### 7. Once you get the PCB
-If you plan on using the firmware we wrote, located in a seperate [repository](https://github.com/SDSURocketProject/far-mars-onboard-firmware "repository"), you will need to get a little familiar with the Atmel-ICE programmer and Atmel Studio first. Once you've done this, you can hook up the ICE to the SWD header you will have soldered on by now, and 
+If you plan on using the firmware we wrote, located in a seperate [repository](https://github.com/SDSURocketProject/far-mars-onboard-firmware "repository"), you will need to get a little familiar with the Atmel-ICE programmer and Atmel Studio first. Once you've done this, you can hook up the ICE to the SWD header you will have soldered on by now, and flash the firmware onto the board. You will need to reference the firmwares documentation in order to adjust it to your needs.
+
+If you would like to write your own firmware, you should use the firmware repository and Atmel Software Framwork as a guide. Embedded programming and RTOS knowledge are a must. These are very useful skills to have. 
 
 ### 8. Final Remarks
 The far-mars-avionics-controller is entirley functional and usable on any system with similar requirements to the FAR/MARS Lady Elizabeth rocket. Furthermore the CANbus port included in the design, once tested, will also allow for the PCB to interface with virtually any existing CANbus compatible product/system(e.g. Motor Controllers, Thermocouple modules). 

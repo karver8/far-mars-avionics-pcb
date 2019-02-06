@@ -8,8 +8,8 @@ The **far-mars-avionics-controller** is a custom built printed circuit board tha
 * ARM Cortex M0+ microcontroller
 * 9 multi-purpose I/O pins (+1 DIO PIN)
 * Up to 9 12bit and 2 16bit Analog to Digital channels.
-* RS-485 Transciever for long distance LVDS ground communications
-* CANbus Transciever for future feature expansion
+* RS-485 Transceiver for long distance LVDS ground communications
+* CANbus Transceiver for future feature expansion(untested)
 * BNO055 Inertial Measurement Unit
 * Locking microSD card slot for secure, vibration resistant data logging
 * 5-17V Input Range allowing for versatile power supply.
@@ -31,10 +31,10 @@ Here is everything you need to interface with this PCB and/or to write your own 
 * Development Notes
 
 ### Assembly
-We highly recommend that you outsource the assembly of this PCB. This design has a lot of tiny surface mount components, on both sides of the board, so unless you have experience reflowing on two sides, this will be almost impossible to assemble yourself. We used MacroFab for the most recent version of this PCB. The current BOM is also optimized to take advantage of their 10-day turnaround service. Here is everything you need to assemble your own avionics controller:
+It is highly recommend that you outsource the assembly of this PCB. This design has a lot of tiny surface mount components, on both sides of the board, so unless you have experience reflowing on two sides, this will be almost impossible to assemble yourself. We used MacroFab for the most recent version of this PCB. The current BOM is also optimized to take advantage of their 10-day turnaround service. Here is everything you need to assemble your own avionics controller:
+* [Assembly Guide](https://github.com/SDSURocketProject/far-mars-avionics-pcb/tree/master/assembly#assembly-guide "Instructions")
 * [Bill of Materials](https://github.com/SDSURocketProject/far-mars-avionics-pcb/tree/master/assembly/BOM#bill-of-materials "Bill of Materials")
 * [Gerber Files](https://github.com/SDSURocketProject/far-mars-avionics-pcb/tree/master/assembly/Gerbers)
-* [Instructions](https://github.com/SDSURocketProject/far-mars-avionics-pcb/tree/master/assembly#assembly-guide "Instructions")
 * [Design Slides](https://github.com/SDSURocketProject/far-mars-avionics-pcb/blob/master/assembly/Physical%20Summary.pdf "Physical Summary")
 * **Schematic & Layout Files are in the top directory**
 

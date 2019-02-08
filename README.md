@@ -5,8 +5,8 @@
 The **far-mars-avionics-controller** is a custom built printed circuit board that performs data aquisition, logging, and communication, all in one highly power effecient, light weight, and compact design. This circuit was built around the FAR/MARS rocket competition, which challenges teams to design a LOX/Methane rocket to accuratley target an altitude of 45,000 feet.
 
 ### Features
-* ARM Cortex M0+ microcontroller
-* 9 multi-purpose I/O pins (+1 DIO PIN)
+* Dual(5V/3.3V) Supply ARM Cortex M0+ microcontroller
+* 9 multi-purpose 5V I/O pins (+1 DIO PIN)
 * Up to 9 12bit and 2 16bit Analog to Digital channels.
 * RS-485 Transceiver for long distance LVDS ground communications
 * CANbus Transceiver for future feature expansion(untested)
@@ -26,8 +26,9 @@ The FAR/MARS rocket uses a FreeRTOS implementation to safley and predictabley ma
 Here is everything you need to interface with this PCB and/or to write your own drivers and firmware:
 * far-mars-avionics-controller Datasheet
 * [Pinout](https://github.com/SDSURocketProject/far-mars-avionics-pcb/blob/master/documentation/pinout.pdf "Pinout")
-* Schematic
+* [Schematic](https://github.com/SDSURocketProject/far-mars-avionics-pcb/blob/master/documentation/pinout.pdf "Schematic")
 * Electrical Specifications
+* [Mechanical Drawing](https://github.com/SDSURocketProject/far-mars-avionics-pcb/blob/master/documentation/mech_drawing.pdf "Drawing")
 * [Device Datasheet Collection](https://github.com/SDSURocketProject/far-mars-avionics-pcb/tree/master/documentation/Datasheets "Device Datasheet Collection")
 * Development Notes
 

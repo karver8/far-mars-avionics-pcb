@@ -26,7 +26,7 @@ The FAR/MARS rocket uses a FreeRTOS implementation to safley and predictabley ma
 Here is everything you need to interface with this PCB and/or to write your own drivers and firmware:
 * far-mars-avionics-controller Datasheet
 * [Pinout](https://github.com/SDSURocketProject/far-mars-avionics-pcb/blob/master/documentation/pinout.pdf "Pinout")
-* [Schematic](https://github.com/SDSURocketProject/far-mars-avionics-pcb/blob/master/documentation/pinout.pdf "Schematic")
+* [Schematic](https://github.com/SDSURocketProject/far-mars-avionics-pcb/blob/master/documentation/schematic.pdf "Schematic")
 * Electrical Specifications
 * [Mechanical Drawing](https://github.com/SDSURocketProject/far-mars-avionics-pcb/blob/master/documentation/mech_drawing.pdf "Drawing")
 * [Device Datasheet Collection](https://github.com/SDSURocketProject/far-mars-avionics-pcb/tree/master/documentation/Datasheets "Device Datasheet Collection")

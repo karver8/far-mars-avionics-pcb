@@ -49,3 +49,7 @@ eagle.epf
 *.psd
 *.docx
 *.xlsx
+
+History/
+*Logs*
+*Previews*

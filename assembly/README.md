@@ -22,7 +22,7 @@ Navigate to [far-mars-avionics-pcb/assembly/Gerbers/](https://github.com/SDSURoc
 ### 4. Populate the Bill Of Materials
 This is somewhat tedious, so until I decide to figure out how to upload a premade BOM to their website, you will need to go through the the BOM in this repo and manually add each part. Navigate to [far-mars-avionics-pcb/assembly/BOM/Onboard-BOM.csv](https://github.com/SDSURocketProject/far-mars-avionics-pcb/blob/master/assembly/BOM/Onboard-BOM.csv "far-mars-avionics-pcb/assembly/BOM/Onboard-BOM.csv") and start adding everything you see there.
 
-Note that some parts list Digikey/Macrofab as the vendor, these parts are stocked by Macrofab, and therfore reduce the cost of the board. Make sure to use their parts for these items.
+Note that the far right column indicates whether the parts are stocked by Macrofab, these reduce the cost of the board. Make sure to use their parts for these items, you can find the model number for these parts on their website under the House Parts tab.
 
 It is highly likley that some of these parts will no longer be in stock, or no longer produced, so if this happens you will need to navigate Digikey or one of their approved suppliers to find a matching alternative.
 
@@ -31,7 +31,7 @@ Their 10-day turn around services requires that you use fewer than 20 unique par
 
 You will notice that on the far right there are check boxes that say "DNP", this tells Macrofab not to source and assemble that specific part, in case you would like to do it yourself. For the 10-day service, DNP the "SWD" and "20 pin Main Header". Also as said above, DNP the RP Logo that appears on the BOM for whatever reason. You will need to order the parts you DNP so you can add them yourself.
 
-Please note that the 10-day turnaround time is defined as 10 buisness days, not including weekends, the true turn around time is esitmate in the top right of the wizard under where it should now say "10-days". **This does not include shipping time**.
+Please note that the 10-day turnaround time is defined as 10 buisness days, not including weekends, the true turn around time is estimated in the top right of the wizard under where it should now say "10-days". **This does not include shipping time**.
 
 ### 6. Order Required Components
 In [far-mars-avionics-pcb/assembly/BOM/OffBoard-BOM.csv](https://github.com/SDSURocketProject/far-mars-avionics-pcb/blob/master/assembly/BOM/OffBoard-BOM.csv "far-mars-avionics-pcb/assembly/BOM/OffBoard-BOM.csv") you will find a short list of things you will need to order outside of MacroFab. You need these in order to communicate, power, and flash/program it. If I missed something you feel should be on this list please let me know.

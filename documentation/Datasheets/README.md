@@ -4,8 +4,8 @@
 * [SanDisk microSD](https://github.com/SDSURocketProject/far-mars-avionics-pcb/blob/master/documentation/Datasheets/sandisk-microSD.pdf "SanDisk microSD")
 * [microSD Slot Mechanical Specs](https://github.com/SDSURocketProject/far-mars-avionics-pcb/blob/master/documentation/Datasheets/microSD_DM3_catalog.pdf "microSD Slot Mechanical Specs")
 * [RS485 Transceiver](https://github.com/SDSURocketProject/far-mars-avionics-pcb/blob/master/documentation/Datasheets/sn65hvd35.pdf "RS485 Transciever ")
-* CAN Transceiver
-* 5V DC/DC Switching Regulator
-* 3.3V Linear Regulator
-* Reverse Protection Diode
-* Tuning Fork Crystal
+* [CAN Transceiver](https://github.com/SDSURocketProject/far-mars-avionics-pcb/blob/master/documentation/Datasheets/MCP2561T.pdf)
+* [5V DC/DC Switching Regulator](https://github.com/SDSURocketProject/far-mars-avionics-pcb/blob/master/documentation/Datasheets/tps62161.pdf)
+* [3.3V Linear Regulator](https://github.com/SDSURocketProject/far-mars-avionics-pcb/blob/master/documentation/Datasheets/tlv702.pdf)
+* [Reverse Protection Diode](https://github.com/SDSURocketProject/far-mars-avionics-pcb/blob/master/documentation/Datasheets/ds13002.pdf)
+* [Tuning Fork Crystal](https://github.com/SDSURocketProject/far-mars-avionics-pcb/blob/master/documentation/Datasheets/abs25.pdf)

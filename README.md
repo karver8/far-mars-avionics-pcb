@@ -24,17 +24,17 @@ The FAR/MARS rocket uses a FreeRTOS implementation to safley and predictabley ma
 
 ### Documentation
 Here is everything you need to interface with this PCB and/or to write your own drivers and firmware:
-* [Pinout](https://github.com/SDSURocketProject/far-mars-avionics-pcb/blob/master/documentation/pinout.pdf "Pinout")
-* [Schematic](https://github.com/SDSURocketProject/far-mars-avionics-pcb/blob/master/documentation/schematic.pdf "Schematic")
-* [Mechanical Drawing](https://github.com/SDSURocketProject/far-mars-avionics-pcb/blob/master/documentation/mech_drawing.pdf "Drawing")
-* [Device Datasheet Collection](https://github.com/SDSURocketProject/far-mars-avionics-pcb/tree/master/documentation/Datasheets "Device Datasheet Collection")
+* [Pinout](/documentation/pinout.pdf "Pinout")
+* [Schematic](/documentation/schematic.pdf "Schematic")
+* [Mechanical Drawing](/documentation/mech_drawing.pdf "Drawing")
+* [Device Datasheet Collection](/documentation/Datasheets "Device Datasheet Collection")
 
 ### Assembly
 It is highly recommend that you outsource the assembly of this PCB. This design has a lot of tiny surface mount components, on both sides of the board, so unless you have experience reflowing on two sides, this will be almost impossible to assemble yourself. We used MacroFab for the most recent version of this PCB. The current BOM is also optimized to take advantage of their 10-day turnaround service. Here is everything you need to assemble your own avionics controller:
-* [Assembly Guide](https://github.com/SDSURocketProject/far-mars-avionics-pcb/tree/master/assembly#assembly-guide "Instructions")
-* [Bill of Materials](https://github.com/SDSURocketProject/far-mars-avionics-pcb/tree/master/assembly/BOM#bill-of-materials "Bill of Materials")
-* [Gerber Files](https://github.com/SDSURocketProject/far-mars-avionics-pcb/tree/master/assembly/Gerbers)
-* [Design Slides](https://github.com/SDSURocketProject/far-mars-avionics-pcb/blob/master/assembly/Physical%20Summary.pdf "Physical Summary")
+* [Assembly Guide](/assembly#assembly-guide "Instructions")
+* [Bill of Materials](/assembly/BOM#bill-of-materials "Bill of Materials")
+* [Gerber Files](/assembly/Gerbers)
+* [Design Slides](/assembly/Physical%20Summary.pdf "Physical Summary")
 * **Schematic & Layout Files are in the top directory**
 
 ### Remarks

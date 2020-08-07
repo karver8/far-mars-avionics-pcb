@@ -1,6 +1,6 @@
 # far-mars-avionics-controller
 
-![](https://raw.githubusercontent.com/SDSURocketProject/far-mars-avionics-pcb/master/images/header.png)
+![PCB Layout Graphic](images/header.png)
 
 The **far-mars-avionics-controller** is a custom built printed circuit board that performs data aquisition, logging, and communication, all in one highly power effecient, light weight, and compact design. This circuit was built around the FAR/MARS rocket competition, which challenges teams to design a LOX/Methane rocket to accuratley target an altitude of 45,000 feet.
 
